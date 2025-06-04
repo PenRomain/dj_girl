@@ -1,0 +1,387 @@
+{
+  "GlobalVariables": [
+    {
+      "Namespace": "Cutscenes",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "showSurprise",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "showYoga",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ShowKissLatin",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ShowKissEuro",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ShowKissAfro",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Music",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "ivhid_music_apartment",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_music_bar",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_music_bar_slow",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_music_pool",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_music_bathroom",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_music_lust_light",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "Silence",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_music_beach",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_music_beach_lust_light",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_music_beach_lust",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Sound",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "ivhid_sfx_applause",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_sfx_snort",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_sfx_shush",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_sfx_gasp",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_sfx_breathe",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_sfx_laugh_01",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_sfx_moan_01",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_sfx_moan_02",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ivhid_sfx_moan_03",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Open",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "Wardrobe",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "ReOpenWardrobe",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Remember",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "Surprise",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "Stripping",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "Question",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "Yoga",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Names",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "cname",
+          "Type": "String",
+          "Value": "Avitus",
+          "Description": ""
+        },
+        {
+          "Variable": "Alexina",
+          "Type": "String",
+          "Value": "Authoritative amazon",
+          "Description": ""
+        },
+        {
+          "Variable": "Penelope",
+          "Type": "String",
+          "Value": "Inexperienced amazon",
+          "Description": ""
+        },
+        {
+          "Variable": "Demetria",
+          "Type": "String",
+          "Value": "Stealthy amazon",
+          "Description": ""
+        },
+        {
+          "Variable": "Gaspard",
+          "Type": "String",
+          "Value": "Gaspard",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Enter",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "_cname_",
+          "Type": "String",
+          "Value": "Avitus",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Temp",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "focus",
+          "Type": "String",
+          "Value": "",
+          "Description": ""
+        },
+        {
+          "Variable": "saveMainChClothes",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "saveMainChHair",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "saveMainChClothes_intim",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Relationships",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "Penelope",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "Gaspard",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "Alexina",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "Demetria",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Achievements",
+      "Description": "",
+      "Variables": []
+    },
+    {
+      "Namespace": "Way",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "SexMachine",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        },
+        {
+          "Variable": "Bashful",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Wardrobe",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "mainCh_Clothes",
+          "Type": "Integer",
+          "Value": "1",
+          "Description": ""
+        },
+        {
+          "Variable": "mainCh_Race",
+          "Type": "Integer",
+          "Value": "1",
+          "Description": ""
+        },
+        {
+          "Variable": "Carolina",
+          "Type": "Integer",
+          "Value": "1",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Namespace": "Inventory",
+      "Description": "",
+      "Variables": [
+        {
+          "Variable": "RabbitVibrator",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "VacuumStimulator",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        }
+      ]
+    }
+  ]
+}

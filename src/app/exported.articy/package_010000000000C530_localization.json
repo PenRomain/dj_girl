@@ -1,0 +1,3164 @@
+{
+  "FFr_5808EEB3.DisplayName": {
+    "": {
+      "Text": "Episode 1. It`s very hit in Dubai"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai"
+  },
+  "Dlg_F692132E.DisplayName": {
+    "": {
+      "Text": "Scene 1. Room"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai/Scene 1. Room"
+  },
+  "Dlg_E3F1BC22.DisplayName": {
+    "": {
+      "Text": "Scene 2. Room"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai/Scene 2. Room"
+  },
+  "Dlg_45A0B04A.DisplayName": {
+    "": {
+      "Text": "Scene 3. Bar"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai/Scene 3. Bar"
+  },
+  "Dlg_3079680E.DisplayName": {
+    "": {
+      "Text": "Scene 4. Pool"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai/Scene 4. Pool"
+  },
+  "Dlg_29FDCD2B.DisplayName": {
+    "": {
+      "Text": "Scene 5. Restroom"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai/Scene 5. Restroom"
+  },
+  "Dlg_2AA80D42.DisplayName": {
+    "": {
+      "Text": "Scene 6. Pool"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai/Scene 6. Pool"
+  },
+  "Dlg_953BB495.DisplayName": {
+    "": {
+      "Text": "Scene 7. Bar"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai/Scene 7. Bar"
+  },
+  "Dlg_13804948.DisplayName": {
+    "": {
+      "Text": "Scene 8. Private beach"
+    },
+    "Context": "Flow/Episode 1. It`s very hit in Dubai/Scene 8. Private beach"
+  },
+  "DFr_5F310623.Text": {
+    "": {
+      "Text": "Welcome to the visual novel with Carolina Novoa!"
+    },
+    "Context": "Flow/Scene 1. Room/Author: \"Welcome to the visual novel with Ca...\""
+  },
+  "DFr_9859D698.Text": {
+    "": {
+      "Text": "Before starting the game, you will have to choose the appearance of your avatar."
+    },
+    "Context": "Flow/Scene 1. Room/Author: \"Before starting the game, you will...\""
+  },
+  "DFr_DB6B121A.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Room/Player: \"...\""
+  },
+  "DFr_C0F8DB83.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Room/Player: \"...\""
+  },
+  "DFr_9D66AF5C.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Room/Player: \"...\""
+  },
+  "DFr_842E0EF3.Text": {
+    "": {
+      "Text": "You can give your character your own name - or choose any name. The standard player name is Avitus."
+    },
+    "Context": "Flow/Scene 1. Room/Author: \"You can give your character your ow...\""
+  },
+  "DFr_97567F9A.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Room/Player: \"...\""
+  },
+  "DFr_4A8D7C5E.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 1. Room/Player: \"...\""
+  },
+  "DFr_4FC45AD5.Text": {
+    "": {
+      "Text": "You're ready to start the game."
+    },
+    "Context": "Flow/Scene 1. Room/Author: \"You're ready to start the game.\""
+  },
+  "DFr_8CFF95D3.Text": {
+    "": {
+      "Text": "Choose your look"
+    },
+    "Context": "Flow/Scene 1. Room/Author: \"Choose your look\""
+  },
+  "DFr_E60C170E.Text": {
+    "": {
+      "Text": "_cname_, have you seen my diamond cufflinks?"
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"_cname_, have you seen my diamond c...\""
+  },
+  "DFr_24DFCB1D.Text": {
+    "": {
+      "Text": "I don't follow fashion for outdated accessories."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"I don't follow fashion for outdated...\""
+  },
+  "DFr_7FB2CE32.Text": {
+    "": {
+      "Text": "Cufflinks are a classic, man."
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"Cufflinks are a classic, man.\""
+  },
+  "DFr_6112542E.Text": {
+    "": {
+      "Text": "If you're in your forties..."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"If you're in your forties...\""
+  },
+  "DFr_0ADF23FC.Text": {
+    "": {
+      "Text": "Hey! Just because it's your birthday doesn't give you the right to be such a jerk!"
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"Hey! Just because it's your birthda...\""
+  },
+  "DFr_4B23A0EF.Text": {
+    "": {
+      "Text": "You don't need a reason, you're like this every day."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"You don't need a reason, you're lik...\""
+  },
+  "DFr_03DFFC57.Text": {
+    "": {
+      "Text": "Arthur laughed. Over the years of their friendship, he'd grown accustomed to the hero's sarcastic outbursts."
+    },
+    "Context": "Flow/Scene 2. Room/Author: \"Arthur laughed. Over the years of t...\""
+  },
+  "DFr_C27EDBFB.Text": {
+    "": {
+      "Text": "To avoid looking like a loser, he threw a pillow at him."
+    },
+    "Context": "Flow/Scene 2. Room/Author: \"To avoid looking like a loser, he t...\""
+  },
+  "DFr_6DF38E13.Text": {
+    "": {
+      "Text": "Ouch!"
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"Ouch!\""
+  },
+  "DFr_EBB50683.Text": {
+    "": {
+      "Text": "Serves you right! Oh, here come the cufflinks."
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"Serves you right! Oh, here come the...\""
+  },
+  "DFr_5763B19F.Text": {
+    "": {
+      "Text": "Arthur sinks back into himself in front of the huge mirror."
+    },
+    "Context": "Flow/Scene 2. Room/Author: \"Arthur sinks back into himself in f...\""
+  },
+  "DFr_93968A55.Text": {
+    "": {
+      "Text": "That's when you're thinking about a deal, a new asset, an investment - just like always."
+    },
+    "Context": "Flow/Scene 2. Room/Author: \"That's when you're thinking about a...\""
+  },
+  "DFr_818511EF.Text": {
+    "": {
+      "Text": "Don't get your hopes up, _cname_. Your corporation won't collapse while you're on vacation. It's time to get ready to..."
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"Don't get your hopes up, _cname_. Y...\""
+  },
+  "DFr_CCF9E083.Text": {
+    "": {
+      "Text": "...my party. I remember."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"...my party. I remember.\""
+  },
+  "DFr_29B2F6D7.Text": {
+    "": {
+      "Text": "I'll allow myself to take my time. You're my only guest."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"I'll allow myself to take my time....\""
+  },
+  "DFr_F931CC83.Text": {
+    "": {
+      "Text": "We'll find you real guests. Young, long-legged..."
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"We'll find you real guests. Young,...\""
+  },
+  "DFr_CAE443CE.Text": {
+    "": {
+      "Text": "You lowered your gaze."
+    },
+    "Context": "Flow/Scene 2. Room/Author: \"You lowered your gaze.\""
+  },
+  "DFr_E3F445C6.Text": {
+    "": {
+      "Text": "I'm not interested in ordinary girls."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"I'm not interested in ordinary girl...\""
+  },
+  "DFr_E003EEBC.Text": {
+    "": {
+      "Text": "Arthur sits down, trying to catch your eye."
+    },
+    "Context": "Flow/Scene 2. Room/Author: \"Arthur sits down, trying to catch y...\""
+  },
+  "DFr_0D7C9105.Text": {
+    "": {
+      "Text": "I know. It's supposed to be... special."
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"I know. It's supposed to be... spec...\""
+  },
+  "DFr_192CE019.Text": {
+    "": {
+      "Text": "It's like something's lighting up inside you."
+    },
+    "Context": "Flow/Scene 2. Room/Author: \"It's like something's lighting up i...\""
+  },
+  "DFr_F63765A9.Text": {
+    "": {
+      "Text": "Exactly. Exceptional!"
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"Exactly. Exceptional!\""
+  },
+  "DFr_7BA14097.Text": {
+    "": {
+      "Text": "Your appearance will impress - it's just a matter of who."
+    },
+    "Context": "Flow/Scene 2. Room/Information: \"Your appearance will impress - it's...\""
+  },
+  "DFr_4E54DFCE.Text": {
+    "": {
+      "Text": "Pack your bags. Maybe tonight is the day you'll meet the woman of your dreams."
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"Pack your bags. Maybe tonight is th...\""
+  },
+  "DFr_97BFAAAC.Text": {
+    "": {
+      "Text": "It's time to choose a look. The party will be held at one of the best beach clubs in Dubai."
+    },
+    "Context": "Flow/Scene 2. Room/Information: \"It's time to choose a look. The par...\""
+  },
+  "DFr_50C05274.Text": {
+    "": {
+      "Text": "You open the closet."
+    },
+    "Context": "Flow/Scene 2. Room/Author: \"You open the closet.\""
+  },
+  "DFr_3D70655E.Text": {
+    "": {
+      "Text": "I'll put on..."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"I'll put on...\""
+  },
+  "DFr_7465513C.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 2. Room/Player: \"...\""
+  },
+  "DFr_D0CBDBE2.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 2. Room/Player: \"...\""
+  },
+  "DFr_1CB70ED4.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 2. Room/Player: \"...\""
+  },
+  "DFr_5219CDC9.Text": {
+    "": {
+      "Text": "I don't want to look too flashy."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"I don't want to look too flashy.\""
+  },
+  "DFr_F47D995B.Text": {
+    "": {
+      "Text": "Ok. Just be yourself. It's time to come out."
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"Ok. Just be yourself. It's time to...\""
+  },
+  "DFr_FBAD8F07.Text": {
+    "": {
+      "Text": "I don't want to get lost in the crowd."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"I don't want to get lost in the cro...\""
+  },
+  "DFr_98791F56.Text": {
+    "": {
+      "Text": "Great approach. Good choice. Let's go."
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"Great approach. Good choice. Let's...\""
+  },
+  "DFr_7DC79864.Text": {
+    "": {
+      "Text": "I want to leave an unforgettable impression of myself."
+    },
+    "Context": "Flow/Scene 2. Room/Protagonist: \"I want to leave an unforgettable im...\""
+  },
+  "DFr_AA90F24F.Text": {
+    "": {
+      "Text": "That's the spirit. That's an image that's hard to forget. Let's go!"
+    },
+    "Context": "Flow/Scene 2. Room/Arthur: \"That's the spirit. That's an image...\""
+  },
+  "DFr_327960F0.Text": {
+    "": {
+      "Text": "The noise of the bar, the heat of Dubai, and the third cocktail already in my hand."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"The noise of the bar, the heat of D...\""
+  },
+  "DFr_744E99C0.Text": {
+    "": {
+      "Text": "You want to get drunk?"
+    },
+    "Context": "Flow/Scene 3. Bar/Arthur: \"You want to get drunk?\""
+  },
+  "DFr_DBB05979.Text": {
+    "": {
+      "Text": "Yeah. I want to forget about being a year older."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Yeah. I want to forget about being...\""
+  },
+  "DFr_36DD19A7.Text": {
+    "": {
+      "Text": "As your best friend, I won't let you do that."
+    },
+    "Context": "Flow/Scene 3. Bar/Arthur: \"As your best friend, I won't let yo...\""
+  },
+  "DFr_CD629619.Text": {
+    "": {
+      "Text": "A heated Arthur decided to make a scene again."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"A heated Arthur decided to make a s...\""
+  },
+  "DFr_3F15B492.Text": {
+    "": {
+      "Text": "What you up to?"
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"What you up to?\""
+  },
+  "DFr_F0C3FBF6.Text": {
+    "": {
+      "Text": "Arthur stood up on a bar stool and shouted at the top of his voice:"
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Arthur stood up on a bar stool and...\""
+  },
+  "DFr_B9A70712.Text": {
+    "": {
+      "Text": "Hey, it's the kid's birthday! Let's congratulate him!"
+    },
+    "Context": "Flow/Scene 3. Bar/Arthur: \"Hey, it's the kid's birthday! Let's...\""
+  },
+  "DFr_7C8F3E3D.Text": {
+    "": {
+      "Text": "There was shouting, applause. Someone clapped you on the shoulder, someone raised a glass."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"There was shouting, applause. Someo...\""
+  },
+  "DFr_549BAEB1.Text": {
+    "": {
+      "Text": "In history, you will encounter choices. Some affect the details, others can change the course of events. Choose wisely."
+    },
+    "Context": "Flow/Scene 3. Bar/Information: \"In history, you will encounter choi...\""
+  },
+  "DFr_32023756.Text": {
+    "": {
+      "Text": "Arthur..."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Arthur...\""
+  },
+  "DFr_A98C2F8A.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_E4FC94E1.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_0B92DA40.Text": {
+    "": {
+      "Text": "Arthur is pleased with how his antics have gone."
+    },
+    "Context": "Flow/Scene 3. Bar/Information: \"Arthur is pleased with how his anti...\""
+  },
+  "DFr_C6731FA2.Text": {
+    "": {
+      "Text": "Arthur is sad, he didn't mean to hurt you."
+    },
+    "Context": "Flow/Scene 3. Bar/Information: \"Arthur is sad, he didn't mean to hu...\""
+  },
+  "DFr_BDA06B9C.Text": {
+    "": {
+      "Text": "I'm glad you appreciate it! Happy, you rascal!"
+    },
+    "Context": "Flow/Scene 3. Bar/Arthur: \"I'm glad you appreciate it! Happy,...\""
+  },
+  "DFr_0ECC26B7.Text": {
+    "": {
+      "Text": "For a moment he grew serious."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"For a moment he grew serious.\""
+  },
+  "DFr_6D1AC99F.Text": {
+    "": {
+      "Text": "Okay. I'm sorry, man."
+    },
+    "Context": "Flow/Scene 3. Bar/Arthur: \"Okay. I'm sorry, man.\""
+  },
+  "DFr_14316E46.Text": {
+    "": {
+      "Text": "Hey! Birthday boy gets a free cocktail with a special serve. Would you like one?"
+    },
+    "Context": "Flow/Scene 3. Bar/Barthender: \"Hey! Birthday boy gets a free cockt...\""
+  },
+  "DFr_1196587E.Text": {
+    "": {
+      "Text": "Why don't you?"
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Why don't you?\""
+  },
+  "DFr_9B5FBD89.Text": {
+    "": {
+      "Text": "I'll get the intern."
+    },
+    "Context": "Flow/Scene 3. Bar/Barthender: \"I'll get the intern.\""
+  },
+  "DFr_8E6CC2BA.Text": {
+    "": {
+      "Text": "Carolina! A cocktail for the birthday boy!"
+    },
+    "Context": "Flow/Scene 3. Bar/Barthender: \"Carolina! A cocktail for the birthd...\""
+  },
+  "DFr_6652F9C9.Text": {
+    "": {
+      "Text": "She showed up."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She showed up.\""
+  },
+  "DFr_7AEE3767.Text": {
+    "": {
+      "Text": "What's she like..."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"What's she like...\""
+  },
+  "DFr_2296E213.Text": {
+    "": {
+      "Text": "Choose the outfit you want to see Carolina in!"
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Choose the outfit you want to see C...\""
+  },
+  "DFr_B5344186.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_B582AC50.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_3F7D8F28.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_A7321830.Text": {
+    "": {
+      "Text": "She stepped closer."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She stepped closer.\""
+  },
+  "DFr_70F10579.Text": {
+    "": {
+      "Text": "Hot..."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Hot...\""
+  },
+  "DFr_CD6C6C11.Text": {
+    "": {
+      "Text": "You immediately noticed her perfect form. Carolina's lush hips knocked you out."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You immediately noticed her perfect...\""
+  },
+  "DFr_26AD232D.Text": {
+    "": {
+      "Text": "Hello, birthday boy! What kind of cocktail would you like?"
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Hello, birthday boy! What kind of c...\""
+  },
+  "DFr_082F3687.Text": {
+    "": {
+      "Text": "I'll be..."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"I'll be...\""
+  },
+  "DFr_B8100B88.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_B661B27E.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_A5C0ECC6.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_E79B7FCA.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_528E1B5A.Text": {
+    "": {
+      "Text": "Whatever you say."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Whatever you say.\""
+  },
+  "DFr_3BF20BB0.Text": {
+    "": {
+      "Text": "Whatever you say."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Whatever you say.\""
+  },
+  "DFr_529F9472.Text": {
+    "": {
+      "Text": "You've picked Carolina's favorite alcohol!"
+    },
+    "Context": "Flow/Scene 3. Bar/Information: \"You've picked Carolina's favorite a...\""
+  },
+  "DFr_0C753E06.Text": {
+    "": {
+      "Text": "The girl is grateful for your trust her!"
+    },
+    "Context": "Flow/Scene 3. Bar/Information: \"The girl is grateful for your trust...\""
+  },
+  "DFr_943FFF0C.Text": {
+    "": {
+      "Text": "I'm flattered, handsome. I, too, would choose classic tequila among the many cocktails."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"I'm flattered, handsome. I, too, wo...\""
+  },
+  "DFr_776D7CEA.Text": {
+    "": {
+      "Text": "I'm flattered, handsome. Then I'll pour you a classic tequila shot. I love tequila."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"I'm flattered, handsome. Then I'll...\""
+  },
+  "DFr_9BC0606F.Text": {
+    "": {
+      "Text": "You immediately noticed her perfect form. Carolina's lush hips knocked you out."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You immediately noticed her perfect...\""
+  },
+  "DFr_FCF9BFEE.Text": {
+    "": {
+      "Text": "Her lush breasts swayed seductively in time with her steps, the fabric only emphasizing the seduction."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Her lush breasts swayed seductively...\""
+  },
+  "DFr_9333A05C.Text": {
+    "": {
+      "Text": "Arthur leaned in close to your ear."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Arthur leaned in close to your ear.\""
+  },
+  "DFr_D410A9D8.Text": {
+    "": {
+      "Text": "Sounds like you're in for a treat!"
+    },
+    "Context": "Flow/Scene 3. Bar/Arthur: \"Sounds like you're in for a treat!\""
+  },
+  "DFr_0DDA9661.Text": {
+    "": {
+      "Text": "Carolina heard Arthur mutter this - and winked."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Carolina heard Arthur mutter this -...\""
+  },
+  "DFr_27205A92.Text": {
+    "": {
+      "Text": "A girl likes your attention!"
+    },
+    "Context": "Flow/Scene 3. Bar/Information: \"A girl likes your attention!\""
+  },
+  "DFr_CA2BCF2E.Text": {
+    "": {
+      "Text": "I think I did, too."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"I think I did, too.\""
+  },
+  "DFr_C99F98BD.Text": {
+    "": {
+      "Text": "You know, _cname_, I could add a little surprise of my own to the cocktail. Would you like that?"
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"You know, _cname_, I could add a li...\""
+  },
+  "DFr_B02CD7BA.Text": {
+    "": {
+      "Text": "So..."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"So...\""
+  },
+  "DFr_4E0B7750.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_C51D2DD7.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 3. Bar/Player: \"...\""
+  },
+  "DFr_BBB81519.Text": {
+    "": {
+      "Text": "I knew right away you were an aesthete. Enjoy!"
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"I knew right away you were an aesth...\""
+  },
+  "DFr_53002A38.Text": {
+    "": {
+      "Text": "She looked around, then announced loudly:"
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She looked around, then announced l...\""
+  },
+  "DFr_2D5618FD.Text": {
+    "": {
+      "Text": "Everybody clear out! Only the birthday boy remains at the bar."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Everybody clear out! Only the birth...\""
+  },
+  "DFr_C8B4B738.Text": {
+    "": {
+      "Text": "Carolina lifted herself up with her hands on the to the bar and whispered:"
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Carolina lifted herself up with her...\""
+  },
+  "DFr_00F6E5C1.Text": {
+    "": {
+      "Text": "Relax and enjoy, king."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Relax and enjoy, king.\""
+  },
+  "DFr_D166D3B1.Text": {
+    "": {
+      "Text": "You leaned back in your chair, catching your breath."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You leaned back in your chair, catc...\""
+  },
+  "DFr_E536B848.Text": {
+    "": {
+      "Text": "The music changed - it became slower, more sensual."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"The music changed - it became slowe...\""
+  },
+  "DFr_976886C1.Text": {
+    "": {
+      "Text": "Carolina turned around."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Carolina turned around.\""
+  },
+  "DFr_1B7F6AE9.Text": {
+    "": {
+      "Text": "She began to move her hips - slowly, left to right, in time with the rhythm."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She began to move her hips - slowly...\""
+  },
+  "DFr_E63216D6.Text": {
+    "": {
+      "Text": "One hand slid down her stomach and lower."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"One hand slid down her stomach and...\""
+  },
+  "DFr_EF6620BA.Text": {
+    "": {
+      "Text": "You imagined that instead of her hand, it was yours."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You imagined that instead of her ha...\""
+  },
+  "DFr_7BAE6390.Text": {
+    "": {
+      "Text": "She slowly caressed her lower abdomen as she continued to move in the dance."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She slowly caressed her lower abdom...\""
+  },
+  "DFr_A9948E89.Text": {
+    "": {
+      "Text": "What are you..."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"What are you...\""
+  },
+  "DFr_81ADBA1C.Text": {
+    "": {
+      "Text": "Carolina moved closer, pressed a finger to her lips."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Carolina moved closer, pressed a fi...\""
+  },
+  "DFr_0D06BB85.Text": {
+    "": {
+      "Text": "Shh, shh, shh."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Shh, shh, shh.\""
+  },
+  "DFr_3FE7999E.Text": {
+    "": {
+      "Text": "Then easily jumped on the counter."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Then easily jumped on the counter.\""
+  },
+  "DFr_72D4D12B.Text": {
+    "": {
+      "Text": "You saw the full length of her shapely legs. Your body tensed with desire."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You saw the full length of her shap...\""
+  },
+  "DFr_817DD0B1.Text": {
+    "": {
+      "Text": "You wanted to grab her hips, feel her wriggle under your hands."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You wanted to grab her hips, feel h...\""
+  },
+  "DFr_61942344.Text": {
+    "": {
+      "Text": "Carolina leaned over."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Carolina leaned over.\""
+  },
+  "DFr_E7B38594.Text": {
+    "": {
+      "Text": "It's very hot in Dubai, isn't it?"
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"It's very hot in Dubai, isn't it?\""
+  },
+  "DFr_5199DC41.Text": {
+    "": {
+      "Text": "Agreed..."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Agreed...\""
+  },
+  "DFr_B01C2D94.Text": {
+    "": {
+      "Text": "She paused for a moment."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She paused for a moment.\""
+  },
+  "DFr_2088BFFF.Text": {
+    "": {
+      "Text": "Is this dance really over?"
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Is this dance really over?\""
+  },
+  "DFr_FF4C4071.Text": {
+    "": {
+      "Text": "I just wanted to make sure you were paying attention."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"I just wanted to make sure you were...\""
+  },
+  "DFr_8B276F85.Text": {
+    "": {
+      "Text": "She licked her lips with a wet tongue. She ruffled her hair, made smooth turns of her head..."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She licked her lips with a wet tong...\""
+  },
+  "DFr_A567D63E.Text": {
+    "": {
+      "Text": "And froze in a pose that made you tense up."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"And froze in a pose that made you t...\""
+  },
+  "DFr_541CBE34.Text": {
+    "": {
+      "Text": "You involuntarily reached for her."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You involuntarily reached for her.\""
+  },
+  "DFr_CA0DCD10.Text": {
+    "": {
+      "Text": "Hands on the table. You can look. No touching."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Hands on the table. You can look. N...\""
+  },
+  "DFr_56784E95.Text": {
+    "": {
+      "Text": "She winked and finally set the cocktail in front of you."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She winked and finally set the cock...\""
+  },
+  "DFr_65246FCC.Text": {
+    "": {
+      "Text": "Happy birthday."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Happy birthday.\""
+  },
+  "DFr_2E1CD213.Text": {
+    "": {
+      "Text": "You took the cocktail without taking your eyes off her."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You took the cocktail without takin...\""
+  },
+  "DFr_510B25D0.Text": {
+    "": {
+      "Text": "That was the best gift I've gotten today."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"That was the best gift I've gotten...\""
+  },
+  "DFr_9AFA0A9B.Text": {
+    "": {
+      "Text": "Despite the noise and the crowd - you knew for sure: she was dancing for you."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Despite the noise and the crowd - y...\""
+  },
+  "DFr_5C3C248A.Text": {
+    "": {
+      "Text": "Does... does she want me, too?"
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Does... does she want me, too?\""
+  },
+  "DFr_9FEF28A2.Text": {
+    "": {
+      "Text": "Too bad... You missed out on my legendary show!"
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Too bad... You missed out on my leg...\""
+  },
+  "DFr_E5FBEA52.Text": {
+    "": {
+      "Text": "Maybe not forever…"
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Maybe not forever…\""
+  },
+  "DFr_95F343CE.Text": {
+    "": {
+      "Text": "She winked slyly."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"She winked slyly.\""
+  },
+  "DFr_E26C95B9.Text": {
+    "": {
+      "Text": "Carolina prepared a cocktail, set it on fire - bright sparks lit up the bar."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"Carolina prepared a cocktail, set i...\""
+  },
+  "DFr_EFD5C6E1.Text": {
+    "": {
+      "Text": "The entire audience froze."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"The entire audience froze.\""
+  },
+  "DFr_2B0C122A.Text": {
+    "": {
+      "Text": "Happy birthday."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"Happy birthday.\""
+  },
+  "DFr_A9C2E48D.Text": {
+    "": {
+      "Text": "You gratefully accepted the cocktail from the hands of a girl who knew exactly how to rock the evening."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"You gratefully accepted the cocktai...\""
+  },
+  "DFr_E7229694.Text": {
+    "": {
+      "Text": "Hey, man, why don't we relax by the pool? Or are you too busy right now?"
+    },
+    "Context": "Flow/Scene 3. Bar/Arthur: \"Hey, man, why don't we relax by the...\""
+  },
+  "DFr_E2913930.Text": {
+    "": {
+      "Text": "Wait a minute. Hey, bartender?"
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"Wait a minute. Hey, bartender?\""
+  },
+  "DFr_98632D04.Text": {
+    "": {
+      "Text": "The man behind the counter leaned toward you, squinting slightly."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"The man behind the counter leaned t...\""
+  },
+  "DFr_AEDA6456.Text": {
+    "": {
+      "Text": "Yes?"
+    },
+    "Context": "Flow/Scene 3. Bar/Barthender: \"Yes?\""
+  },
+  "DFr_1C980CDB.Text": {
+    "": {
+      "Text": "How much does Carolina's workday cost?"
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"How much does Carolina's workday co...\""
+  },
+  "DFr_24ABFBE3.Text": {
+    "": {
+      "Text": "Including a generous tip... about $500."
+    },
+    "Context": "Flow/Scene 3. Bar/Barthender: \"Including a generous tip... about $...\""
+  },
+  "DFr_503D3818.Text": {
+    "": {
+      "Text": "I'll give you a thousand. It's Carolina's day off today."
+    },
+    "Context": "Flow/Scene 3. Bar/Protagonist: \"I'll give you a thousand. It's Caro...\""
+  },
+  "DFr_9066CAF9.Text": {
+    "": {
+      "Text": "The bartender didn't hesitate long."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"The bartender didn't hesitate long.\""
+  },
+  "DFr_7B2B7549.Text": {
+    "": {
+      "Text": "Deal!"
+    },
+    "Context": "Flow/Scene 3. Bar/Barthender: \"Deal!\""
+  },
+  "DFr_780B44BE.Text": {
+    "": {
+      "Text": "Hey, Carolina!"
+    },
+    "Context": "Flow/Scene 3. Bar/Barthender: \"Hey, Carolina!\""
+  },
+  "DFr_C0459803.Text": {
+    "": {
+      "Text": "He called out to the girl and, when she came up, informed her that she was free for the day. Carolina smiled, looking warmly at you, her \"liberator\"."
+    },
+    "Context": "Flow/Scene 3. Bar/Author: \"He called out to the girl and, when...\""
+  },
+  "DFr_1D85300D.Text": {
+    "": {
+      "Text": "I'll get my stuff and find you. Have fun."
+    },
+    "Context": "Flow/Scene 3. Bar/Carolina: \"I'll get my stuff and find you. Hav...\""
+  },
+  "DFr_050157A7.Text": {
+    "": {
+      "Text": "In case Carolina falls in love with you - the secret scene will be unlocked for you for free..."
+    },
+    "Context": "Flow/Scene 3. Bar/Information: \"In case Carolina falls in love with...\""
+  },
+  "DFr_325D7B65.Text": {
+    "": {
+      "Text": "Seriously, she seems unusual to me. I want to see where this evening takes us."
+    },
+    "Context": "Flow/Scene 4. Pool/Protagonist: \"Seriously, she seems unusual to me....\""
+  },
+  "DFr_1F33327A.Text": {
+    "": {
+      "Text": "I wouldn't mind finding a hottie, either!"
+    },
+    "Context": "Flow/Scene 4. Pool/Arthur: \"I wouldn't mind finding a hottie, e...\""
+  },
+  "DFr_3F62596E.Text": {
+    "": {
+      "Text": "A slender blonde woman approached the pool. She was clearly hinting that she wanted to sit next to me."
+    },
+    "Context": "Flow/Scene 4. Pool/Author: \"A slender blonde woman approached t...\""
+  },
+  "DFr_0B98D3D9.Text": {
+    "": {
+      "Text": "Hey, guys!"
+    },
+    "Context": "Flow/Scene 4. Pool/Melissa: \"Hey, guys!\""
+  },
+  "DFr_D9A40469.Text": {
+    "": {
+      "Text": "Are my thoughts material?"
+    },
+    "Context": "Flow/Scene 4. Pool/Arthur: \"Are my thoughts material?\""
+  },
+  "DFr_1E6DEE20.Text": {
+    "": {
+      "Text": "What-what?"
+    },
+    "Context": "Flow/Scene 4. Pool/Melissa: \"What-what?\""
+  },
+  "DFr_A11BA384.Text": {
+    "": {
+      "Text": "It's okay. Have a seat with us."
+    },
+    "Context": "Flow/Scene 4. Pool/Arthur: \"It's okay. Have a seat with us.\""
+  },
+  "DFr_7A566A98.Text": {
+    "": {
+      "Text": "You introduced yourselves to each other. Melissa chatted for a few minutes on distracting topics:"
+    },
+    "Context": "Flow/Scene 4. Pool/Author: \"You introduced yourselves to each o...\""
+  },
+  "DFr_AB640BEA.Text": {
+    "": {
+      "Text": "\"What do you think of Dubai?\", \"How long have you been here?\"..."
+    },
+    "Context": "Flow/Scene 4. Pool/Author: \"\"What do you think of Dubai?\", \"How...\""
+  },
+  "DFr_BDE87817.Text": {
+    "": {
+      "Text": "But after taking a closer look at you, she changed her tone."
+    },
+    "Context": "Flow/Scene 4. Pool/Author: \"But after taking a closer look at y...\""
+  },
+  "DFr_2447C07B.Text": {
+    "": {
+      "Text": "Wow, is that a Patek Philippe?"
+    },
+    "Context": "Flow/Scene 4. Pool/Melissa: \"Wow, is that a Patek Philippe?\""
+  },
+  "DFr_E1BD7ACE.Text": {
+    "": {
+      "Text": "That's right."
+    },
+    "Context": "Flow/Scene 4. Pool/Protagonist: \"That's right.\""
+  },
+  "DFr_560645F5.Text": {
+    "": {
+      "Text": "And how much do they cost?"
+    },
+    "Context": "Flow/Scene 4. Pool/Melissa: \"And how much do they cost?\""
+  },
+  "DFr_1DE74F0B.Text": {
+    "": {
+      "Text": "You didn't like this conversation. Too often women were only interested in you for your money."
+    },
+    "Context": "Flow/Scene 4. Pool/Author: \"You didn't like this conversation....\""
+  },
+  "DFr_934F0220.Text": {
+    "": {
+      "Text": "And how many employees do you have in your company?"
+    },
+    "Context": "Flow/Scene 4. Pool/Melissa: \"And how many employees do you have...\""
+  },
+  "DFr_98C5F3EC.Text": {
+    "": {
+      "Text": "You answered sparingly, making it clear you didn't want to pursue the topic."
+    },
+    "Context": "Flow/Scene 4. Pool/Author: \"You answered sparingly, making it c...\""
+  },
+  "DFr_67D6CD46.Text": {
+    "": {
+      "Text": "And my room has a huge double bed..."
+    },
+    "Context": "Flow/Scene 4. Pool/Arthur: \"And my room has a huge double bed.....\""
+  },
+  "DFr_21A8BB2D.Text": {
+    "": {
+      "Text": "Arthur doesn't seem to mind her attention. But Melissa still only has eyes for you."
+    },
+    "Context": "Flow/Scene 4. Pool/Author: \"Arthur doesn't seem to mind her att...\""
+  },
+  "DFr_619839B0.Text": {
+    "": {
+      "Text": "The best way to end a conversation is to get up and walk away."
+    },
+    "Context": "Flow/Scene 4. Pool/Author: \"The best way to end a conversation...\""
+  },
+  "DFr_13B230BC.Text": {
+    "": {
+      "Text": "I'm going to leave you for a while. I need to use the restroom."
+    },
+    "Context": "Flow/Scene 4. Pool/Protagonist: \"I'm going to leave you for a while....\""
+  },
+  "DFr_8F5645D3.Text": {
+    "": {
+      "Text": "We'll miss you!"
+    },
+    "Context": "Flow/Scene 4. Pool/Melissa: \"We'll miss you!\""
+  },
+  "DFr_13E2C73D.Text": {
+    "": {
+      "Text": "Take your time, brother."
+    },
+    "Context": "Flow/Scene 4. Pool/Arthur: \"Take your time, brother.\""
+  },
+  "DFr_FBCB1021.Text": {
+    "": {
+      "Text": "You walked towards the restroom with one obsessive thought."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You walked towards the restroom wit...\""
+  },
+  "DFr_6889D099.Text": {
+    "": {
+      "Text": "I haven't been interested in girls like Melissa for a long time. I mean."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"I haven't been interested in girls...\""
+  },
+  "DFr_E7C369B5.Text": {
+    "": {
+      "Text": "Ouch!"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Ouch!\""
+  },
+  "DFr_B922A42E.Text": {
+    "": {
+      "Text": "Immersed in yourself, you didn't notice crashing into the one you really wanted to see - Carolina."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Immersed in yourself, you didn't no...\""
+  },
+  "DFr_83160460.Text": {
+    "": {
+      "Text": "I'm sorry."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"I'm sorry.\""
+  },
+  "DFr_2558C1FA.Text": {
+    "": {
+      "Text": "She sensed right away that something was wrong with you."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"She sensed right away that somethin...\""
+  },
+  "DFr_5841631F.Text": {
+    "": {
+      "Text": "Is something bothering you?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Is something bothering you?\""
+  },
+  "DFr_74003D42.Text": {
+    "": {
+      "Text": "Honestly? Yeah. I can't spend time with whoever I want because I get hit on by clingy escorts."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"Honestly? Yeah. I can't spend time...\""
+  },
+  "DFr_C48A5375.Text": {
+    "": {
+      "Text": "Carolina pouted her lips and made an exaggeratedly pitiful face."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Carolina pouted her lips and made a...\""
+  },
+  "DFr_B69C3A04.Text": {
+    "": {
+      "Text": "Oh, poor thing!"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Oh, poor thing!\""
+  },
+  "DFr_1B978E05.Text": {
+    "": {
+      "Text": "Then she laughed out loud."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Then she laughed out loud.\""
+  },
+  "DFr_D1F03219.Text": {
+    "": {
+      "Text": "It's not funny. I'm not interested in people like her at all."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"It's not funny. I'm not interested...\""
+  },
+  "DFr_AB4E3756.Text": {
+    "": {
+      "Text": "Which ones are you interested in?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Which ones are you interested in?\""
+  },
+  "DFr_6E46DB26.Text": {
+    "": {
+      "Text": "She playfully walked over and put her palm on your chest. You immediately felt your insides tighten."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"She playfully walked over and put h...\""
+  },
+  "DFr_D7C25DFD.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"...\""
+  },
+  "DFr_B6212FB7.Text": {
+    "": {
+      "Text": "Carolina's eyes lowered to your pants."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Carolina's eyes lowered to your pan...\""
+  },
+  "DFr_430386EF.Text": {
+    "": {
+      "Text": "I see. No need to say anything."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"I see. No need to say anything.\""
+  },
+  "DFr_4192B890.Text": {
+    "": {
+      "Text": "You both grinned."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You both grinned.\""
+  },
+  "DFr_DAE699CE.Text": {
+    "": {
+      "Text": "Listen, I got an idea. Let's dress you up as a janitor!"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Listen, I got an idea. Let's dress...\""
+  },
+  "DFr_74DCB326.Text": {
+    "": {
+      "Text": "What?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"What?\""
+  },
+  "DFr_E4F0AA0E.Text": {
+    "": {
+      "Text": "Have you even seen how cool you look?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Have you even seen how cool you loo...\""
+  },
+  "DFr_A1ABC24C.Text": {
+    "": {
+      "Text": "I would love to have sex with at least your shirt!"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"I would love to have sex with at le...\""
+  },
+  "DFr_E19CE7C8.Text": {
+    "": {
+      "Text": "Carolina's attitude toward you was influenced by the previous election."
+    },
+    "Context": "Flow/Scene 5. Restroom/Information: \"Carolina's attitude toward you was...\""
+  },
+  "DFr_486838A5.Text": {
+    "": {
+      "Text": "You're slightly embarrassed again."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You're slightly embarrassed again.\""
+  },
+  "DFr_27299913.Text": {
+    "": {
+      "Text": "Thank you for the compliment."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"Thank you for the compliment.\""
+  },
+  "DFr_4F329F71.Text": {
+    "": {
+      "Text": "They don't say \"thank you\" for the truth."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"They don't say \"thank you\" for the...\""
+  },
+  "DFr_E75FCD49.Text": {
+    "": {
+      "Text": "There's a reason I spent so much time in front of the mirror."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"There's a reason I spent so much ti...\""
+  },
+  "DFr_9EB2A605.Text": {
+    "": {
+      "Text": "You certainly look... unassuming."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"You certainly look... unassuming.\""
+  },
+  "DFr_B7DC288E.Text": {
+    "": {
+      "Text": "Carolina's attitude toward you was influenced by the previous election."
+    },
+    "Context": "Flow/Scene 5. Restroom/Information: \"Carolina's attitude toward you was...\""
+  },
+  "DFr_290F7F71.Text": {
+    "": {
+      "Text": "Thank you for the \"compliment\"."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"Thank you for the \"compliment\".\""
+  },
+  "DFr_D9EA6F4C.Text": {
+    "": {
+      "Text": "I'm sorry. So all the glamour is in the watch."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"I'm sorry. So all the glamour is in...\""
+  },
+  "DFr_B591319A.Text": {
+    "": {
+      "Text": "If you don't want attention, change your clothes."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"If you don't want attention, change...\""
+  },
+  "DFr_E9B2D632.Text": {
+    "": {
+      "Text": "She opened one of the staff lockers and pulled out a janitor's uniform from there."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"She opened one of the staff lockers...\""
+  },
+  "DFr_7CAB138E.Text": {
+    "": {
+      "Text": "Should I change right here?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"Should I change right here?\""
+  },
+  "DFr_BECD9782.Text": {
+    "": {
+      "Text": "Carolina's attitude toward you was affected by the previous election."
+    },
+    "Context": "Flow/Scene 5. Restroom/Information: \"Carolina's attitude toward you was...\""
+  },
+  "DFr_0388E88A.Text": {
+    "": {
+      "Text": "Suit yourself, handsome. I'd love to see it."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Suit yourself, handsome. I'd love t...\""
+  },
+  "DFr_46D1ED8F.Text": {
+    "": {
+      "Text": "Whatever."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Whatever.\""
+  },
+  "DFr_53F0CD6F.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"...\""
+  },
+  "DFr_59A91273.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 5. Restroom/Player: \"...\""
+  },
+  "DFr_9BAFF719.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 5. Restroom/Player: \"...\""
+  },
+  "DFr_6B2E4EC0.Text": {
+    "": {
+      "Text": "You took a step forward, looking into her eyes."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You took a step forward, looking in...\""
+  },
+  "DFr_89FAFE09.Text": {
+    "": {
+      "Text": "In that case."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"In that case.\""
+  },
+  "DFr_1056BA81.Text": {
+    "": {
+      "Text": "Slowly, button by button, you began to unbutton your shirt."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Slowly, button by button, you began...\""
+  },
+  "DFr_0B4CADDB.Text": {
+    "": {
+      "Text": "It's getting more and more interesting…"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"It's getting more and more interest...\""
+  },
+  "DFr_55BCE18F.Text": {
+    "": {
+      "Text": "You felt her gaze on you and completely forgot that someone could to come in."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You felt her gaze on you and comple...\""
+  },
+  "DFr_862B85B0.Text": {
+    "": {
+      "Text": "The shirt slid off his shoulders with a rustle and fell to the floor."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"The shirt slid off his shoulders wi...\""
+  },
+  "DFr_966D5747.Text": {
+    "": {
+      "Text": "That's right. She was an extra between us."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"That's right. She was an extra betw...\""
+  },
+  "DFr_D23FA86F.Text": {
+    "": {
+      "Text": "Her gaze fixed on your naked torso."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Her gaze fixed on your naked torso.\""
+  },
+  "DFr_41A041BC.Text": {
+    "": {
+      "Text": "Oh my god..."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Oh my god...\""
+  },
+  "DFr_14489E16.Text": {
+    "": {
+      "Text": "She stepped closer, as if drawn by a magnet."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"She stepped closer, as if drawn by...\""
+  },
+  "DFr_7D71D6AD.Text": {
+    "": {
+      "Text": "If I run my tongue over your skin right now. I'd burn myself. You're a fire."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"If I run my tongue over your skin r...\""
+  },
+  "DFr_56A8226F.Text": {
+    "": {
+      "Text": "You loved hearing her voice, the tone of it carrying an undisguised desire."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You loved hearing her voice, the to...\""
+  },
+  "DFr_FE4E0A07.Text": {
+    "": {
+      "Text": "Please, uh. Go on."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Please, uh. Go on.\""
+  },
+  "DFr_0105D114.Text": {
+    "": {
+      "Text": "Looking you straight in the eyes, she began to gently stroke her body."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Looking you straight in the eyes, s...\""
+  },
+  "DFr_8E844B64.Text": {
+    "": {
+      "Text": "It was a turn-on."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"It was a turn-on.\""
+  },
+  "DFr_98CC881F.Text": {
+    "": {
+      "Text": "You unbuckled your belt - and your pants slid down smoothly."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You unbuckled your belt - and your...\""
+  },
+  "DFr_7EDBD5DC.Text": {
+    "": {
+      "Text": "I was so eager to see him..."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"I was so eager to see him...\""
+  },
+  "DFr_8530C166.Text": {
+    "": {
+      "Text": "She stared at the distinct cock standing out clearly in her underwear."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"She stared at the distinct cock sta...\""
+  },
+  "DFr_4D46ACC8.Text": {
+    "": {
+      "Text": "What do you think?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"What do you think?\""
+  },
+  "DFr_0633BF9D.Text": {
+    "": {
+      "Text": "She stepped closer. Her breathing quickened."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"She stepped closer. Her breathing q...\""
+  },
+  "DFr_AA910D3D.Text": {
+    "": {
+      "Text": "I immediately wanted to take it in my mouth..."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"I immediately wanted to take it in...\""
+  },
+  "DFr_7AB6B9EE.Text": {
+    "": {
+      "Text": "Your cock tensed even more at her words."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Your cock tensed even more at her w...\""
+  },
+  "DFr_EA430910.Text": {
+    "": {
+      "Text": "I imagine getting down on my knees. and giving you the deepest blowjob of your life."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"I imagine getting down on my knees....\""
+  },
+  "DFr_07496982.Text": {
+    "": {
+      "Text": "Mm-hmm."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"Mm-hmm.\""
+  },
+  "DFr_E464FE13.Text": {
+    "": {
+      "Text": "She came almost right up close."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"She came almost right up close.\""
+  },
+  "DFr_C04D2B5C.Text": {
+    "": {
+      "Text": "It was as if a sparkling current had erupted between you. She moaned softly."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"It was as if a sparkling current ha...\""
+  },
+  "DFr_14512563.Text": {
+    "": {
+      "Text": "Ah..."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Ah...\""
+  },
+  "DFr_1E89A9E7.Text": {
+    "": {
+      "Text": "You reached out your hands to touch her..."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You reached out your hands to touch...\""
+  },
+  "DFr_A378FE8A.Text": {
+    "": {
+      "Text": "But she took a sharp step backward."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"But she took a sharp step backward.\""
+  },
+  "DFr_C078B822.Text": {
+    "": {
+      "Text": "Not so fast. Aren't you a gentleman?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Not so fast. Aren't you a gentleman...\""
+  },
+  "DFr_2B797C57.Text": {
+    "": {
+      "Text": "You immediately yanked your hand away."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You immediately yanked your hand aw...\""
+  },
+  "DFr_76F9F209.Text": {
+    "": {
+      "Text": "Of course. Gentleman!"
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"Of course. Gentleman!\""
+  },
+  "DFr_F3F0D3FD.Text": {
+    "": {
+      "Text": "So you're not gonna let it happen that fast?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"So you're not gonna let it happen t...\""
+  },
+  "DFr_228A8BEC.Text": {
+    "": {
+      "Text": "I had no idea!"
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"I had no idea!\""
+  },
+  "DFr_24A51F41.Text": {
+    "": {
+      "Text": "I... so horny. But I'm not ready to more. Not here."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"I... so horny. But I'm not ready to...\""
+  },
+  "DFr_4B8AB90C.Text": {
+    "": {
+      "Text": "Don't worry about it. I understand. You don't have to make excuses."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"Don't worry about it. I understand....\""
+  },
+  "DFr_B89D6D5E.Text": {
+    "": {
+      "Text": "Carolina turned away to cool down a bit."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"Carolina turned away to cool down a...\""
+  },
+  "DFr_A7621ADB.Text": {
+    "": {
+      "Text": "Hurry up and change. before you drive me crazy."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Hurry up and change. before you dri...\""
+  },
+  "DFr_4FC5F30F.Text": {
+    "": {
+      "Text": "I'll change in the stall."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"I'll change in the stall.\""
+  },
+  "DFr_FE19EC29.Text": {
+    "": {
+      "Text": "No stripping?"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"No stripping?\""
+  },
+  "DFr_C62F6269.Text": {
+    "": {
+      "Text": "Not today."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"Not today.\""
+  },
+  "DFr_8AF1F544.Text": {
+    "": {
+      "Text": "That's a shame. It turns me on."
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"That's a shame. It turns me on.\""
+  },
+  "DFr_9E0257F8.Text": {
+    "": {
+      "Text": "It's too late to change your words... You've gone to change."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"It's too late to change your words....\""
+  },
+  "DFr_5CF28CE2.Text": {
+    "": {
+      "Text": "You quickly changed into your janitor's uniform."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You quickly changed into your janit...\""
+  },
+  "DFr_0BB61B76.Text": {
+    "": {
+      "Text": "Now no one will ever look at you again!"
+    },
+    "Context": "Flow/Scene 5. Restroom/Carolina: \"Now no one will ever look at you ag...\""
+  },
+  "DFr_C9768DAC.Text": {
+    "": {
+      "Text": "That's for sure."
+    },
+    "Context": "Flow/Scene 5. Restroom/Protagonist: \"That's for sure.\""
+  },
+  "DFr_785EAA66.Text": {
+    "": {
+      "Text": "You headed back toward the pool - already like conspiring allies."
+    },
+    "Context": "Flow/Scene 5. Restroom/Author: \"You headed back toward the pool - a...\""
+  },
+  "DFr_3BB3648A.Text": {
+    "": {
+      "Text": "You and Carolina walk back to the pool. She looks around with a satisfied smile."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"You and Carolina walk back to the p...\""
+  },
+  "DFr_ADAE7F51.Text": {
+    "": {
+      "Text": "See? Not one look!"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"See? Not one look!\""
+  },
+  "DFr_266FC8D8.Text": {
+    "": {
+      "Text": "Yeah, now everyone's looking at the hottie who's going to the pool with the janitor for some reason."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"Yeah, now everyone's looking at the...\""
+  },
+  "DFr_65843969.Text": {
+    "": {
+      "Text": "Why? Maybe the hottie likes role-playing?"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Why? Maybe the hottie likes role-pl...\""
+  },
+  "DFr_9807F486.Text": {
+    "": {
+      "Text": "If that's the case, I'm ready to mop the floor at your house."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"If that's the case, I'm ready to mo...\""
+  },
+  "DFr_85105AD2.Text": {
+    "": {
+      "Text": "She playfully punched you in the shoulder with her fist."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"She playfully punched you in the sh...\""
+  },
+  "DFr_92073296.Text": {
+    "": {
+      "Text": "You settled down on the nearest sunbeds and ordered cocktails. Carolina was the first to break the pause."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"You settled down on the nearest sun...\""
+  },
+  "DFr_A9DE8367.Text": {
+    "": {
+      "Text": "Where do you live now?"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Where do you live now?\""
+  },
+  "DFr_B20440F7.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_6E797278.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_DE5FC0E9.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_B2EF2025.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_1516ABE8.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_8C48B1FC.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_390398A3.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"...\""
+  },
+  "DFr_CB3B6476.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"...\""
+  },
+  "DFr_1AC098FB.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_76D70B9F.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_D49E1D64.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_5A6B981C.Text": {
+    "": {
+      "Text": "Oh, wow! I'm from there, too. Colombia."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Oh, wow! I'm from there, too. Colom...\""
+  },
+  "DFr_E37F49DE.Text": {
+    "": {
+      "Text": "I came here for a little change of scenery."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I came here for a little change of...\""
+  },
+  "DFr_F4014EA6.Text": {
+    "": {
+      "Text": "Oh, wow! I've always wanted to go there. I'm from Colombia."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Oh, wow! I've always wanted to go t...\""
+  },
+  "DFr_F7E30834.Text": {
+    "": {
+      "Text": "Oh, wow! I always thought Africa would be good for me. It's very hot there and I'm very hot."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Oh, wow! I always thought Africa wo...\""
+  },
+  "DFr_B50E2B19.Text": {
+    "": {
+      "Text": "I'm from Colombia. I came here for a little change of scenery."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I'm from Colombia. I came here for...\""
+  },
+  "DFr_BF7BA3A2.Text": {
+    "": {
+      "Text": "Oh, wow! I've traveled around Europe and I loved it."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Oh, wow! I've traveled around Europ...\""
+  },
+  "DFr_099648DE.Text": {
+    "": {
+      "Text": "Oh wow! I would love to visit one of the Asian countries in search of harmony with myself."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Oh wow! I would love to visit one o...\""
+  },
+  "DFr_E88668B2.Text": {
+    "": {
+      "Text": "Oh, wow! I've always wanted to see a kangaroo!"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Oh, wow! I've always wanted to see...\""
+  },
+  "DFr_3216BD6F.Text": {
+    "": {
+      "Text": "Oh, wow! Looking at you, I immediately thought you don't sit in one place."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Oh, wow! Looking at you, I immediat...\""
+  },
+  "DFr_D21EB009.Text": {
+    "": {
+      "Text": "Caroline seems to be paying a little less attention to you than you'd like..."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"Caroline seems to be paying a littl...\""
+  },
+  "DFr_BA33D2A5.Text": {
+    "": {
+      "Text": "Maybe I did something wrong? The night's not over, I can fix it!"
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"Maybe I did something wrong? The ni...\""
+  },
+  "DFr_71E5A4FE.Text": {
+    "": {
+      "Text": "You know, I'm interested in everything about you! I have so many questions! First of all, I'm interested in... in you."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"You know, I'm interested in everyth...\""
+  },
+  "DFr_BF09AA4C.Text": {
+    "": {
+      "Text": "The girl was embarrassed. You were pleased with her attention."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"The girl was embarrassed. You were...\""
+  },
+  "DFr_A9A0F48A.Text": {
+    "": {
+      "Text": "Caroline's reaction was influenced by your actions in the past."
+    },
+    "Context": "Flow/Scene 6. Pool/Information: \"Caroline's reaction was influenced...\""
+  },
+  "DFr_069D8355.Text": {
+    "": {
+      "Text": "So you're on vacation in Dubai. And how do you like to vacation?"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"So you're on vacation in Dubai. And...\""
+  },
+  "DFr_19940975.Text": {
+    "": {
+      "Text": "I like it better..."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"I like it better...\""
+  },
+  "DFr_C127980F.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_AFD02EFD.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_9FD20CBE.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_49088CD7.Text": {
+    "": {
+      "Text": "Ha! So you and I would be comfortable vacationing together! I prefer chill too."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Ha! So you and I would be comfortab...\""
+  },
+  "DFr_0D6BA491.Text": {
+    "": {
+      "Text": "Then it's unlikely you and I will ever go on vacation. Or you'll be hiking or doing something else alone. On vacation, I prefer - to rest."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Then it's unlikely you and I will e...\""
+  },
+  "DFr_E3CCE3B8.Text": {
+    "": {
+      "Text": "Then I don't think you and I will ever go on vacation."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Then I don't think you and I will e...\""
+  },
+  "DFr_4D951D83.Text": {
+    "": {
+      "Text": "You've learned how Carolina likes to vacation."
+    },
+    "Context": "Flow/Scene 6. Pool/Information: \"You've learned how Carolina likes t...\""
+  },
+  "DFr_840A15D1.Text": {
+    "": {
+      "Text": "You've learned how Carolina likes to vacation."
+    },
+    "Context": "Flow/Scene 6. Pool/Information: \"You've learned how Carolina likes t...\""
+  },
+  "DFr_928119F2.Text": {
+    "": {
+      "Text": "You've learned how Carolina likes to vacation."
+    },
+    "Context": "Flow/Scene 6. Pool/Information: \"You've learned how Carolina likes t...\""
+  },
+  "DFr_028239E9.Text": {
+    "": {
+      "Text": "I'd love to take you to the Maldives."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"I'd love to take you to the Maldive...\""
+  },
+  "DFr_442E43BE.Text": {
+    "": {
+      "Text": "I'd love to go. As long as it's just you and me."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I'd love to go. As long as it's jus...\""
+  },
+  "DFr_F8AFB4B1.Text": {
+    "": {
+      "Text": "The girl turned her head away shyly. You decided to change the subject so as not to embarrass her."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"The girl turned her head away shyly...\""
+  },
+  "DFr_C6C14164.Text": {
+    "": {
+      "Text": "On vacation, I prefer to relax. Parties are cool, but the horizontal position appeals to me more."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"On vacation, I prefer to relax. Par...\""
+  },
+  "DFr_8D80F1CE.Text": {
+    "": {
+      "Text": "Why don't we switch roles?"
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"Why don't we switch roles?\""
+  },
+  "DFr_4BEEACB9.Text": {
+    "": {
+      "Text": "I'll be the janitor and you be the hottie?"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I'll be the janitor and you be the...\""
+  },
+  "DFr_C709B965.Text": {
+    "": {
+      "Text": "Ha ha! No. Now I'm gonna ask a question."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"Ha ha! No. Now I'm gonna ask a ques...\""
+  },
+  "DFr_423F3BA0.Text": {
+    "": {
+      "Text": "You can ask as many questions as you want."
+    },
+    "Context": "Flow/Scene 6. Pool/Information: \"You can ask as many questions as yo...\""
+  },
+  "DFr_EADD514D.Text": {
+    "": {
+      "Text": "Go for it."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Go for it.\""
+  },
+  "DFr_35533B50.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"...\""
+  },
+  "DFr_902DB8BD.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_63239E29.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_039D7C9A.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_A97A61CF.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_6594594A.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_D8769A24.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"...\""
+  },
+  "DFr_0A80BD3D.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_288FF547.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_0C90542E.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_10E9B76E.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_31DD92DB.Text": {
+    "": {
+      "Text": "Clitoral Stimulator. It caresses my clit like the most skillful tongue in the world does."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Clitoral Stimulator. It caresses my...\""
+  },
+  "DFr_E8B30BB5.Text": {
+    "": {
+      "Text": "I love the vibration spilling over my nerves and bringing me to orgasm quickly."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I love the vibration spilling over...\""
+  },
+  "DFr_7544654D.Text": {
+    "": {
+      "Text": "And I get even more turned on when a man helps me with this toy when we have sex."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"And I get even more turned on when...\""
+  },
+  "DFr_CEABF86D.Text": {
+    "": {
+      "Text": "Or when he's just watching me enjoy myself - and come right in front of him."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Or when he's just watching me enjoy...\""
+  },
+  "DFr_F6CCC86A.Text": {
+    "": {
+      "Text": "Uh, uh. I'm not being too forward?"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Uh, uh. I'm not being too forward?\""
+  },
+  "DFr_19DF497D.Text": {
+    "": {
+      "Text": "I've always dreamed of having sex in an airplane lavatory."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I've always dreamed of having sex i...\""
+  },
+  "DFr_544D068D.Text": {
+    "": {
+      "Text": "I love that feeling: there are hundreds of people behind a thin door, and no one guesses that we're fucking at that moment."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I love that feeling: there are hund...\""
+  },
+  "DFr_2A54156C.Text": {
+    "": {
+      "Text": "And even if they do, they don't say anything."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"And even if they do, they don't say...\""
+  },
+  "DFr_276A486B.Text": {
+    "": {
+      "Text": "What if someone knocks on the stall?"
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"What if someone knocks on the stall...\""
+  },
+  "DFr_0EA4C0DF.Text": {
+    "": {
+      "Text": "Then my man would have to speed up."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Then my man would have to speed up.\""
+  },
+  "DFr_0B31AD8A.Text": {
+    "": {
+      "Text": "Cum on me fast - so as not to delay the other passengers!"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Cum on me fast - so as not to delay...\""
+  },
+  "DFr_39E7FD5F.Text": {
+    "": {
+      "Text": "She laughs, biting her lip, and looks straight into his eyes."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"She laughs, biting her lip, and loo...\""
+  },
+  "DFr_878CC94D.Text": {
+    "": {
+      "Text": "Ha-ha... I didn't embarrass you?"
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Ha-ha... I didn't embarrass you?\""
+  },
+  "DFr_DDABFE46.Text": {
+    "": {
+      "Text": "Of the basics... I love erotic lingerie. Corsets that are tight around the waist..."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Of the basics... I love erotic ling...\""
+  },
+  "DFr_CCFD2D80.Text": {
+    "": {
+      "Text": "And panties with access - to insert... well, you get the idea."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"And panties with access - to insert...\""
+  },
+  "DFr_6968A11F.Text": {
+    "": {
+      "Text": "You bet I did."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"You bet I did.\""
+  },
+  "DFr_F2C91294.Text": {
+    "": {
+      "Text": "I like to dress up for a man. I have a whole lingerie collection. And even role-playing kits."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I like to dress up for a man. I hav...\""
+  },
+  "DFr_34DDE376.Text": {
+    "": {
+      "Text": "She leans closer, her voice getting lower."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"She leans closer, her voice getting...\""
+  },
+  "DFr_6B42CD94.Text": {
+    "": {
+      "Text": "Imagine me in a cop costume."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Imagine me in a cop costume.\""
+  },
+  "DFr_D3EFF69B.Text": {
+    "": {
+      "Text": "I'd like you to arrest me."
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"I'd like you to arrest me.\""
+  },
+  "DFr_07DAF77D.Text": {
+    "": {
+      "Text": "In this game, it's up to you to cuff me.... and fuck me so I'll confess everything. Oops... I guess I'm too got hot."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"In this game, it's up to you to cuf...\""
+  },
+  "DFr_29C2EE97.Text": {
+    "": {
+      "Text": "Yes! I love hit the gym. It's what makes my figure so... seductive."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Yes! I love hit the gym. It's what...\""
+  },
+  "DFr_23F377F1.Text": {
+    "": {
+      "Text": "Free time? Most of it goes to sports."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Free time? Most of it goes to sport...\""
+  },
+  "DFr_BED8BEE0.Text": {
+    "": {
+      "Text": "I love to feel the muscles working - especially, when I'm in my underwear afterward."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I love to feel the muscles working...\""
+  },
+  "DFr_BF277024.Text": {
+    "": {
+      "Text": "I like lifting heavy weights the most."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I like lifting heavy weights the mo...\""
+  },
+  "DFr_299AAACD.Text": {
+    "": {
+      "Text": "This way my muscles grow faster and I can release all the negative energy I've accumulated."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"This way my muscles grow faster and...\""
+  },
+  "DFr_00DD68A0.Text": {
+    "": {
+      "Text": "There are two tried-and-true ways that help me in defusing myself: sports and sex."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"There are two tried-and-true ways t...\""
+  },
+  "DFr_52514705.Text": {
+    "": {
+      "Text": "Ha ha...and preferably on the same day."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Ha ha...and preferably on the same...\""
+  },
+  "DFr_D470F20A.Text": {
+    "": {
+      "Text": "intelligent, resourceful, authentic personality. Looks or profession are not important to me."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"intelligent, resourceful, authentic...\""
+  },
+  "DFr_AADEEF8D.Text": {
+    "": {
+      "Text": "What's more important is what's in your head. Confidence, a lively mind, a sense of humor, the ability to surprise..."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"What's more important is what's in...\""
+  },
+  "DFr_97799512.Text": {
+    "": {
+      "Text": "In general, it's the intellect that excites me. Strong."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"In general, it's the intellect that...\""
+  },
+  "DFr_D3514E72.Text": {
+    "": {
+      "Text": "I enjoyed it. I'm glad we were able to get to know each other better."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I enjoyed it. I'm glad we were able...\""
+  },
+  "DFr_1E57AA6C.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 6. Pool/Player: \"...\""
+  },
+  "DFr_5F9FF1AF.Text": {
+    "": {
+      "Text": "I was happy to talk to you about sex. It's important if we're gonna… do it."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"I was happy to talk to you about se...\""
+  },
+  "DFr_E520D5B1.Text": {
+    "": {
+      "Text": "A fervent hope has settled in you."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"A fervent hope has settled in you.\""
+  },
+  "DFr_B60812FF.Text": {
+    "": {
+      "Text": "Honestly, I was hoping you'd talk to me about sex. I wanted to."
+    },
+    "Context": "Flow/Scene 6. Pool/Carolina: \"Honestly, I was hoping you'd talk t...\""
+  },
+  "DFr_F4D6D123.Text": {
+    "": {
+      "Text": "How about another cocktail?"
+    },
+    "Context": "Flow/Scene 6. Pool/Protagonist: \"How about another cocktail?\""
+  },
+  "DFr_A0126DC6.Text": {
+    "": {
+      "Text": "Carolina nodded and you headed towards the bar."
+    },
+    "Context": "Flow/Scene 6. Pool/Author: \"Carolina nodded and you headed towa...\""
+  },
+  "DFr_552B9979.Text": {
+    "": {
+      "Text": "You walked up to the bar and placed your order."
+    },
+    "Context": "Flow/Scene 7. Bar/Author: \"You walked up to the bar and placed...\""
+  },
+  "DFr_3D23E2F6.Text": {
+    "": {
+      "Text": "Oh, _cname_, there you are!"
+    },
+    "Context": "Flow/Scene 7. Bar/Melissa: \"Oh, _cname_, there you are!\""
+  },
+  "DFr_9889B05A.Text": {
+    "": {
+      "Text": "You mentally rolled your eyes."
+    },
+    "Context": "Flow/Scene 7. Bar/Author: \"You mentally rolled your eyes.\""
+  },
+  "DFr_57F85040.Text": {
+    "": {
+      "Text": "You really took your time. Uh, why did you, uh..."
+    },
+    "Context": "Flow/Scene 7. Bar/Arthur: \"You really took your time. Uh, why...\""
+  },
+  "DFr_36B1AA8F.Text": {
+    "": {
+      "Text": "Dressed like a janitor?"
+    },
+    "Context": "Flow/Scene 7. Bar/Melissa: \"Dressed like a janitor?\""
+  },
+  "DFr_C6CDF81B.Text": {
+    "": {
+      "Text": "Hmm..."
+    },
+    "Context": "Flow/Scene 7. Bar/Protagonist: \"Hmm...\""
+  },
+  "DFr_46FA124A.Text": {
+    "": {
+      "Text": "It was all voluntary. I never force anyone."
+    },
+    "Context": "Flow/Scene 7. Bar/Carolina: \"It was all voluntary. I never force...\""
+  },
+  "DFr_CC6E42C2.Text": {
+    "": {
+      "Text": "Carolina didn't really like your answer."
+    },
+    "Context": "Flow/Scene 7. Bar/Information: \"Carolina didn't really like your an...\""
+  },
+  "DFr_6F8E7DAC.Text": {
+    "": {
+      "Text": "Sorry, bad joke."
+    },
+    "Context": "Flow/Scene 7. Bar/Protagonist: \"Sorry, bad joke.\""
+  },
+  "DFr_14BE5BD1.Text": {
+    "": {
+      "Text": "Yes! We decided to have fun together!"
+    },
+    "Context": "Flow/Scene 7. Bar/Carolina: \"Yes! We decided to have fun togethe...\""
+  },
+  "DFr_84B5E59A.Text": {
+    "": {
+      "Text": "Carolina liked your answer."
+    },
+    "Context": "Flow/Scene 7. Bar/Information: \"Carolina liked your answer.\""
+  },
+  "DFr_1666C6B0.Text": {
+    "": {
+      "Text": "She looked warmly in your direction."
+    },
+    "Context": "Flow/Scene 7. Bar/Author: \"She looked warmly in your direction...\""
+  },
+  "DFr_EFB446E0.Text": {
+    "": {
+      "Text": "Interesting you have... jokes."
+    },
+    "Context": "Flow/Scene 7. Bar/Melissa: \"Interesting you have... jokes.\""
+  },
+  "DFr_93A83888.Text": {
+    "": {
+      "Text": "We saw you and decided to come over."
+    },
+    "Context": "Flow/Scene 7. Bar/Arthur: \"We saw you and decided to come over...\""
+  },
+  "DFr_AEF18E4A.Text": {
+    "": {
+      "Text": "You noticed that Carolina didn't like Melissa at all. She leaned toward you and whispered faintly in your ear:"
+    },
+    "Context": "Flow/Scene 7. Bar/Author: \"You noticed that Carolina didn't li...\""
+  },
+  "DFr_CCE6387B.Text": {
+    "": {
+      "Text": "I want to run away. Will you run away with me?"
+    },
+    "Context": "Flow/Scene 7. Bar/Carolina: \"I want to run away. Will you run aw...\""
+  },
+  "DFr_085156EC.Text": {
+    "": {
+      "Text": "It was exactly the kind of offer you couldn't refuse."
+    },
+    "Context": "Flow/Scene 7. Bar/Author: \"It was exactly the kind of offer yo...\""
+  },
+  "DFr_3CB23146.Text": {
+    "": {
+      "Text": "Oh! I totally forgot, the senior bartender asked me to move the keg of beer before I left..."
+    },
+    "Context": "Flow/Scene 7. Bar/Carolina: \"Oh! I totally forgot, the senior ba...\""
+  },
+  "DFr_4F5D1396.Text": {
+    "": {
+      "Text": "A keg of beer is really heavy!"
+    },
+    "Context": "Flow/Scene 7. Bar/Protagonist: \"A keg of beer is really heavy!\""
+  },
+  "DFr_FABC22A5.Text": {
+    "": {
+      "Text": "Yes... I certainly can't do it alone..."
+    },
+    "Context": "Flow/Scene 7. Bar/Carolina: \"Yes... I certainly can't do it alon...\""
+  },
+  "DFr_207E172C.Text": {
+    "": {
+      "Text": "We can all help you!"
+    },
+    "Context": "Flow/Scene 7. Bar/Arthur: \"We can all help you!\""
+  },
+  "DFr_2BE97936.Text": {
+    "": {
+      "Text": "There's gonna be too many of us. Don't worry, guys, I'll help Carolina. We'll be back to you soon."
+    },
+    "Context": "Flow/Scene 7. Bar/Protagonist: \"There's gonna be too many of us. Do...\""
+  },
+  "DFr_D7BA1FE6.Text": {
+    "": {
+      "Text": "Show me where that \"heavy thing\" is."
+    },
+    "Context": "Flow/Scene 7. Bar/Protagonist: \"Show me where that \"heavy thing\" is...\""
+  },
+  "DFr_CE83E2C2.Text": {
+    "": {
+      "Text": "As soon as you stepped a little away from the bar, Carolina abruptly took your hand - and you ran away, holding back laughter."
+    },
+    "Context": "Flow/Scene 7. Bar/Author: \"As soon as you stepped a little awa...\""
+  },
+  "DFr_A4859FF2.Text": {
+    "": {
+      "Text": "Carolina looked around with interest. There wasn't a soul around-just you and the warm sand beneath your feet."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Carolina looked around with interes...\""
+  },
+  "DFr_53E6D211.Text": {
+    "": {
+      "Text": "Wow... Are we really all alone out here?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Wow... Are we really all alone out...\""
+  },
+  "DFr_72E8FB76.Text": {
+    "": {
+      "Text": "That's right."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"That's right.\""
+  },
+  "DFr_2D5B0B53.Text": {
+    "": {
+      "Text": "I had booked a private beach in case I got hit on by girls. So I'd have a place to hide."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"I had booked a private beach in cas...\""
+  },
+  "DFr_30807DE5.Text": {
+    "": {
+      "Text": "Ha!"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Ha!\""
+  },
+  "DFr_3607A466.Text": {
+    "": {
+      "Text": "If you think I'm gonna want to have sex with you because you brought me to a private beach.... - you're overconfident."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"If you think I'm gonna want to have...\""
+  },
+  "DFr_476D9B43.Text": {
+    "": {
+      "Text": "And seriously..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"And seriously...\""
+  },
+  "DFr_5AC5006A.Text": {
+    "": {
+      "Text": "You failed to arouse Carolina's tenderness because of your previous actions..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Information: \"You failed to arouse Carolina's ten...\""
+  },
+  "DFr_49207B72.Text": {
+    "": {
+      "Text": "I thought I might want to be alone. It's my birthday."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"I thought I might want to be alone....\""
+  },
+  "DFr_913CB4D1.Text": {
+    "": {
+      "Text": "Ohh... it`s... interesting. Thank you for the invitation."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Ohh... it`s... interesting. Thank y...\""
+  },
+  "DFr_C5A44028.Text": {
+    "": {
+      "Text": "And seriously..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"And seriously...\""
+  },
+  "DFr_65157A31.Text": {
+    "": {
+      "Text": "I thought I might want to be alone. It's my birthday."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"I thought I might want to be alone....\""
+  },
+  "DFr_511E6736.Text": {
+    "": {
+      "Text": "She smiled warmly, her eyes sparkling softly."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She smiled warmly, her eyes sparkli...\""
+  },
+  "DFr_76AB3C97.Text": {
+    "": {
+      "Text": "And the fact that you chose me over loneliness really means a lot."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"And the fact that you chose me over...\""
+  },
+  "DFr_D959EAD8.Text": {
+    "": {
+      "Text": "And for me."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"And for me.\""
+  },
+  "DFr_B7D5D4C7.Text": {
+    "": {
+      "Text": "You managed to arouse tenderness in Caroline because of your previous actions!"
+    },
+    "Context": "Flow/Scene 8. Private beach/Information: \"You managed to arouse tenderness in...\""
+  },
+  "DFr_E317103F.Text": {
+    "": {
+      "Text": "You took her hand gently."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You took her hand gently.\""
+  },
+  "DFr_2F3CCE4C.Text": {
+    "": {
+      "Text": "So... what do we do now?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"So... what do we do now?\""
+  },
+  "DFr_EF2A83AB.Text": {
+    "": {
+      "Text": "You reached for her lush thighs, but Carolina's expression suddenly changed."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You reached for her lush thighs, bu...\""
+  },
+  "DFr_58D1A932.Text": {
+    "": {
+      "Text": "Sports!"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Sports!\""
+  },
+  "DFr_794153BA.Text": {
+    "": {
+      "Text": "What?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"What?\""
+  },
+  "DFr_96540B2C.Text": {
+    "": {
+      "Text": "I missed workout."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"I missed workout.\""
+  },
+  "DFr_D5C26F0B.Text": {
+    "": {
+      "Text": "You looked at her with complete incomprehension. She hurried to explain herself, taking a step closer."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You looked at her with complete inc...\""
+  },
+  "DFr_6B00F750.Text": {
+    "": {
+      "Text": "Tell me... do you like my body?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Tell me... do you like my body?\""
+  },
+  "DFr_2E58AF9D.Text": {
+    "": {
+      "Text": "She ran her hands around your waist, gently touching your stomach - and your gaze automatically slid behind her fingers."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She ran her hands around your waist...\""
+  },
+  "DFr_84CEC5D2.Text": {
+    "": {
+      "Text": "I love it."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"I love it.\""
+  },
+  "DFr_F29C74C4.Text": {
+    "": {
+      "Text": "Well, there you go. This figure has to be maintained."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Well, there you go. This figure has...\""
+  },
+  "DFr_DA288D3F.Text": {
+    "": {
+      "Text": "Regular workouts, yoga, stretching... you get the idea, right?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Regular workouts, yoga, stretching....\""
+  },
+  "DFr_0BA33166.Text": {
+    "": {
+      "Text": "You nodded understandingly."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You nodded understandingly.\""
+  },
+  "DFr_28344F31.Text": {
+    "": {
+      "Text": "Then I'll do a little yoga. Right here on the beach. You don't mind, do you?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Then I'll do a little yoga. Right h...\""
+  },
+  "DFr_4B18A001.Text": {
+    "": {
+      "Text": "Of course not."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"Of course not.\""
+  },
+  "DFr_1B4BA2A1.Text": {
+    "": {
+      "Text": "But I won't support you on that - I'm not athletic."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"But I won't support you on that - I...\""
+  },
+  "DFr_163DC1AE.Text": {
+    "": {
+      "Text": "It's not a big deal."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"It's not a big deal.\""
+  },
+  "DFr_B32E87C4.Text": {
+    "": {
+      "Text": "Just... you can look at it. If you want."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Just... you can look at it. If you...\""
+  },
+  "DFr_8B712D54.Text": {
+    "": {
+      "Text": "Carolina took a step onto the warm sand, stood with her back to the sea and inhaled deeply."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Carolina took a step onto the warm...\""
+  },
+  "DFr_8A67CA71.Text": {
+    "": {
+      "Text": "She closed her eyes, squared her shoulders, and began to move slowly."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She closed her eyes, squared her sh...\""
+  },
+  "DFr_F6CCE603.Text": {
+    "": {
+      "Text": "And one..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"And one...\""
+  },
+  "DFr_176DE4EF.Text": {
+    "": {
+      "Text": "Her body arched in a smooth arc, her chest lifted, and her arms reached upward toward the sun."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Her body arched in a smooth arc, he...\""
+  },
+  "DFr_903E2009.Text": {
+    "": {
+      "Text": "She lowered herself into a tilt - slowly, gracefully, as if stretching each moment for your eyes."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She lowered herself into a tilt - s...\""
+  },
+  "DFr_8EC16673.Text": {
+    "": {
+      "Text": "The key is to watch your breathing..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"The key is to watch your breathing....\""
+  },
+  "DFr_18EB3A89.Text": {
+    "": {
+      "Text": "The important thing is that my dick doesn't break through the clouds right now..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"The important thing is that my dick...\""
+  },
+  "DFr_5246DF70.Text": {
+    "": {
+      "Text": "I can't be tempted. I could lose control! Should I close my eyes and try to calm down?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"I can't be tempted. I could lose co...\""
+  },
+  "DFr_51F32126.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 8. Private beach/Player: \"...\""
+  },
+  "DFr_3EF77C99.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 8. Private beach/Player: \"...\""
+  },
+  "DFr_A453B1CE.Text": {
+    "": {
+      "Text": "When she got into the downward facing dog pose, you couldn't take your eyes off her seductively curved ass."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"When she got into the downward faci...\""
+  },
+  "DFr_11CE293C.Text": {
+    "": {
+      "Text": "Sand stuck to her palms, her belly rose and fell rhythmically, and her skin glistened in the sunlight."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Sand stuck to her palms, her belly...\""
+  },
+  "DFr_B6229CB7.Text": {
+    "": {
+      "Text": "Every move she makes is like a muted challenge."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Every move she makes is like a mute...\""
+  },
+  "DFr_20EE5DCB.Text": {
+    "": {
+      "Text": "She knew you were watching. And that only turned her on."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She knew you were watching. And tha...\""
+  },
+  "DFr_BB94CB63.Text": {
+    "": {
+      "Text": "I hope you're enjoying my \"sport\"?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"I hope you're enjoying my \"sport\"?\""
+  },
+  "DFr_C704A0E6.Text": {
+    "": {
+      "Text": "It's better than any movie."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"It's better than any movie.\""
+  },
+  "DFr_9ACE9073.Text": {
+    "": {
+      "Text": "Carolina slowly straightened, ran her palms down her thighs, lingering on her buttocks."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Carolina slowly straightened, ran h...\""
+  },
+  "DFr_9024CEA7.Text": {
+    "": {
+      "Text": "She looked over her shoulder and caught your gaze."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She looked over her shoulder and ca...\""
+  },
+  "DFr_72E78075.Text": {
+    "": {
+      "Text": "You still haven't changed your mind about joining?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"You still haven't changed your mind...\""
+  },
+  "DFr_D4945470.Text": {
+    "": {
+      "Text": "She ran her hand up her stomach, to her breasts, and squeezed them lightly through the fabric."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She ran her hand up her stomach, to...\""
+  },
+  "DFr_F989FDE7.Text": {
+    "": {
+      "Text": "With her other hand, she gently traced the contour of her hips, keeping her fingers at the base of her back."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"With her other hand, she gently tra...\""
+  },
+  "DFr_30565016.Text": {
+    "": {
+      "Text": "You could feel the tension building in your body."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You could feel the tension building...\""
+  },
+  "DFr_D3740D01.Text": {
+    "": {
+      "Text": "Just watch. I like to be looked at...with desire."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Just watch. I like to be looked at....\""
+  },
+  "DFr_E3AFB3CE.Text": {
+    "": {
+      "Text": "She knelt down on her knees, arching her back, and began to slowly rock her hips back and forth."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She knelt down on her knees, archin...\""
+  },
+  "DFr_A22C65EF.Text": {
+    "": {
+      "Text": "Then she ran her fingers along the inside of her thigh, going higher and higher."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Then she ran her fingers along the...\""
+  },
+  "DFr_A3365DDD.Text": {
+    "": {
+      "Text": "You didn't know where to put your hands. The air felt thicker, hotter."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You didn't know where to put your h...\""
+  },
+  "DFr_B7CF2396.Text": {
+    "": {
+      "Text": "When I work out - my whole body becomes sensitive... Especially right here..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"When I work out - my whole body bec...\""
+  },
+  "DFr_41893A1F.Text": {
+    "": {
+      "Text": "Her fingers touched the area just above her pubes. She moaned a little, as if from her own touch."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Her fingers touched the area just a...\""
+  },
+  "DFr_A31CB114.Text": {
+    "": {
+      "Text": "Then she slowly ran her hand down your , lifted your hair, and looked at you as if she'd already taken off all your clothes."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Then she slowly ran her hand down y...\""
+  },
+  "DFr_B7676DC6.Text": {
+    "": {
+      "Text": "Are you still just observing?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Are you still just observing?\""
+  },
+  "DFr_E45D9956.Text": {
+    "": {
+      "Text": "Do I have a choice?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"Do I have a choice?\""
+  },
+  "DFr_F01B8968.Text": {
+    "": {
+      "Text": "Let's go in the water."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Let's go in the water.\""
+  },
+  "DFr_74663982.Text": {
+    "": {
+      "Text": "There I'll show you exactly what you can choose."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"There I'll show you exactly what yo...\""
+  },
+  "DFr_7CB4696E.Text": {
+    "": {
+      "Text": "You get comfortable on the recliner, watching Carolina get down to stretching."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You get comfortable on the recliner...\""
+  },
+  "DFr_86AA3B78.Text": {
+    "": {
+      "Text": "The sun's warmth, the sound of the waves, and the girl's relaxed breathing gradually began to settle in."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"The sun's warmth, the sound of the...\""
+  },
+  "DFr_24E9F656.Text": {
+    "": {
+      "Text": "The last thing you heard falling into slumber was a muffled:"
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"The last thing you heard falling in...\""
+  },
+  "DFr_27271438.Text": {
+    "": {
+      "Text": "Sleepy sloth..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Sleepy sloth...\""
+  },
+  "DFr_CFEDD606.Text": {
+    "": {
+      "Text": "You didn't know how long you'd slept, but you woke up to a light touch."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You didn't know how long you'd slep...\""
+  },
+  "DFr_776100C0.Text": {
+    "": {
+      "Text": "Good morning, sleeping prince. By the way, you were snoring."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Good morning, sleeping prince. By t...\""
+  },
+  "DFr_48E799CC.Text": {
+    "": {
+      "Text": "She laughs, dripping a drop of water from her finger at you. Your shirt's a little wet."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She laughs, dripping a drop of wate...\""
+  },
+  "DFr_571247E0.Text": {
+    "": {
+      "Text": "I hope you didn't go too far without me?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"I hope you didn't go too far withou...\""
+  },
+  "DFr_E4766BDD.Text": {
+    "": {
+      "Text": "No. I just gave you a chance to dream about me."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"No. I just gave you a chance to dre...\""
+  },
+  "DFr_516F68D4.Text": {
+    "": {
+      "Text": "Shall we go swimming?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Shall we go swimming?\""
+  },
+  "DFr_DB86E9F0.Text": {
+    "": {
+      "Text": "Why don't you?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"Why don't you?\""
+  },
+  "DFr_E98994CE.Text": {
+    "": {
+      "Text": "You got up from the chaise lounge, feeling every muscle in your body tense. Carolina took your hand and you walked toward the water."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You got up from the chaise lounge,...\""
+  },
+  "DFr_72D1F948.Text": {
+    "": {
+      "Text": "You entered the warm waters of the Persian Gulf. Carolina was even more playful than before."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You entered the warm waters of the...\""
+  },
+  "DFr_EA15B107.Text": {
+    "": {
+      "Text": "You have such a trim figure."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"You have such a trim figure.\""
+  },
+  "DFr_FFC854F0.Text": {
+    "": {
+      "Text": "Yeah. I love working out my glutes at the gym. You've got a lot of nerve."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Yeah. I love working out my glutes...\""
+  },
+  "DFr_C93AF22E.Text": {
+    "": {
+      "Text": "Can I touch it? So to speak, to gauge progress."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"Can I touch it? So to speak, to gau...\""
+  },
+  "DFr_1580F10F.Text": {
+    "": {
+      "Text": "Try."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Try.\""
+  },
+  "DFr_523EB482.Text": {
+    "": {
+      "Text": "You stepped closer to her. You stood waist-deep in the water. You put your hands on her buttocks. So smooth, so firm."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You stepped closer to her. You stoo...\""
+  },
+  "DFr_9420A963.Text": {
+    "": {
+      "Text": "You closed your eyes, imagining the dirtiest things."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You closed your eyes, imagining the...\""
+  },
+  "DFr_204E1AA8.Text": {
+    "": {
+      "Text": "You wanted to turn her ass around and stick your hot cock in her right now. You tried to push the dirty thoughts away, but suddenly..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You wanted to turn her ass around a...\""
+  },
+  "DFr_EAC0135D.Text": {
+    "": {
+      "Text": "I like to be kissed on the neck."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"I like to be kissed on the neck.\""
+  },
+  "DFr_75CC87CA.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"...\""
+  },
+  "DFr_FF61F838.Text": {
+    "": {
+      "Text": "..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"...\""
+  },
+  "DFr_D4C13881.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 8. Private beach/Player: \"...\""
+  },
+  "DFr_B6A87D8F.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 8. Private beach/Player: \"...\""
+  },
+  "DFr_76BE56D0.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 8. Private beach/Player: \"...\""
+  },
+  "DFr_E6C13A1D.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 8. Private beach/Player: \"...\""
+  },
+  "DFr_8547B59D.Text": {
+    "": {
+      "Text": "Carolina is crazy about you! The secret scene is FREE ONLY FOR YOU!"
+    },
+    "Context": "Flow/Scene 8. Private beach/Information: \"Carolina is crazy about you! The se...\""
+  },
+  "DFr_D2F1E210.Text": {
+    "": {
+      "Text": "You can kiss Carolina!"
+    },
+    "Context": "Flow/Scene 8. Private beach/Information: \"You can kiss Carolina!\""
+  },
+  "DFr_82F74D80.Text": {
+    "": {
+      "Text": "You were standing at the water's edge. A light breeze ruffled her hair, exposing the curve of her neck."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You were standing at the water's ed...\""
+  },
+  "DFr_B3AF3AC1.Text": {
+    "": {
+      "Text": "You moved closer, running your palm across her waist and leaning closer."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You moved closer, running your palm...\""
+  },
+  "DFr_773A6FEE.Text": {
+    "": {
+      "Text": "May I?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"May I?\""
+  },
+  "DFr_93CE6A9F.Text": {
+    "": {
+      "Text": "She didn't answer - only lightly tilted her head to the side, giving you access."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She didn't answer - only lightly ti...\""
+  },
+  "DFr_B43D00B3.Text": {
+    "": {
+      "Text": "You kissed her neck - slowly, gently, with increasing heat."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"You kissed her neck - slowly, gentl...\""
+  },
+  "DFr_828CA129.Text": {
+    "": {
+      "Text": "Her body reacted at once: a short sigh, a shiver running down your skin, fingers clawing into your shoulders."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Her body reacted at once: a short s...\""
+  },
+  "DFr_1AA32E09.Text": {
+    "": {
+      "Text": "Mmm. Go on."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Mmm. Go on.\""
+  },
+  "DFr_715B4A92.Text": {
+    "": {
+      "Text": "Although... Shall we continue on the beach?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Although... Shall we continue on th...\""
+  },
+  "DFr_DA808340.Text": {
+    "": {
+      "Text": "Carolina pulled you to shore."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Carolina pulled you to shore.\""
+  },
+  "DFr_71423246.Text": {
+    "": {
+      "Text": "Carolina rolled her eyes at your lack of judgment."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"Carolina rolled her eyes at your la...\""
+  },
+  "DFr_4A7D4B09.Text": {
+    "": {
+      "Text": "Yeah. Was."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Yeah. Was.\""
+  },
+  "DFr_0189FD61.Text": {
+    "": {
+      "Text": "I… uh…"
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"I… uh…\""
+  },
+  "DFr_5CBC7607.Text": {
+    "": {
+      "Text": "Okay, silly, let's skip the foreplay."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Okay, silly, let's skip the forepla...\""
+  },
+  "DFr_8629A44E.Text": {
+    "": {
+      "Text": "Are you sure no one will see us?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Are you sure no one will see us?\""
+  },
+  "DFr_545616C5.Text": {
+    "": {
+      "Text": "That's right. This beach is just for us. What about you..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"That's right. This beach is just fo...\""
+  },
+  "DFr_5A70203A.Text": {
+    "": {
+      "Text": "It took Carolina a few seconds to remove her swimsuit."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"It took Carolina a few seconds to r...\""
+  },
+  "DFr_679D3D4D.Text": {
+    "": {
+      "Text": "She remained completely naked, covering what you wanted to touch so badly with her hand."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She remained completely naked, cove...\""
+  },
+  "DFr_CE2202B9.Text": {
+    "": {
+      "Text": "I have a special present for you..."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"I have a special present for you...\""
+  },
+  "DFr_1B3CDAE5.Text": {
+    "": {
+      "Text": "I really want to get it."
+    },
+    "Context": "Flow/Scene 8. Private beach/Protagonist: \"I really want to get it.\""
+  },
+  "DFr_6DFEB484.Text": {
+    "": {
+      "Text": "I want your fingers inside my pussy. I want your fingers inside my pussy. Right now."
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"I want your fingers inside my pussy...\""
+  },
+  "DFr_2812458B.Text": {
+    "": {
+      "Text": "She sat down on the sand and spread her legs, exposing herself completely."
+    },
+    "Context": "Flow/Scene 8. Private beach/Author: \"She sat down on the sand and spread...\""
+  },
+  "DFr_2C6DD45E.Text": {
+    "": {
+      "Text": "Are you ready?"
+    },
+    "Context": "Flow/Scene 8. Private beach/Carolina: \"Are you ready?\""
+  },
+  "DFr_066126FB.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 8. Private beach/Player: \"...\""
+  },
+  "DFr_BEBECEA6.Text": {
+    "": {
+      "Text": ""
+    },
+    "Context": "Flow/Scene 8. Private beach/Player: \"...\""
+  },
+  "Ntt_81111BE4.DisplayName": {
+    "": {
+      "Text": "Author"
+    },
+    "Context": "Entities/Main/Author"
+  },
+  "Ntt_E8872DD5.DisplayName": {
+    "": {
+      "Text": "Protagonist"
+    },
+    "Context": "Entities/Main/Protagonist"
+  },
+  "Ntt_475619CA.DisplayName": {
+    "": {
+      "Text": "Information"
+    },
+    "Context": "Entities/Main/Information"
+  },
+  "Ntt_9DE5F591.DisplayName": {
+    "": {
+      "Text": "Episode"
+    },
+    "Context": "Entities/Main/Episode"
+  },
+  "Ntt_03A8E03A.DisplayName": {
+    "": {
+      "Text": "Arthur"
+    },
+    "Context": "Entities/Main/Arthur"
+  },
+  "Ntt_23D3256D.DisplayName": {
+    "": {
+      "Text": "Melissa"
+    },
+    "Context": "Entities/Main/Melissa"
+  },
+  "Ntt_44BA9EC4.DisplayName": {
+    "": {
+      "Text": "Player"
+    },
+    "Context": "Entities/Main/Player"
+  },
+  "Ntt_0416CCF6.DisplayName": {
+    "": {
+      "Text": "Carolina"
+    },
+    "Context": "Entities/Main/Carolina"
+  },
+  "Ntt_DBA333ED.DisplayName": {
+    "": {
+      "Text": "Bartender"
+    },
+    "Context": "Entities/Main/Bartender"
+  }
+}

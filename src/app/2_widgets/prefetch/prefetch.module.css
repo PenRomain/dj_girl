@@ -1,0 +1,7 @@
+.spinnerWrap {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: black;
+    position: none;
+}

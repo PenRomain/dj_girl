@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat, Montserrat_Subrayada } from "next/font/google";
 import "./globals.css";
+import { ReactNode } from "react";
+import StoreProvider from "./4_shared/store/store-provider";
+import cx from "clsx";
+import { Prefetch } from "./2_widgets/prefetch";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const montserratSubrayada = Montserrat_Subrayada({
+  variable: "--font-montserrat-subrayada",
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -20,12 +23,14 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
+        <StoreProvider>
+          <Prefetch>{children}</Prefetch>
+        </StoreProvider>
       </body>
     </html>
   );

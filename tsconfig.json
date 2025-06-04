@@ -19,9 +19,14 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/shared/*": ["./src/app/4_shared/*"],
+      "@/entities/*": ["./src/app/entities/*"],
+      "@/widgets/*": ["./src/app/2_widgets/*"],
+      "@/features/*": ["./src/app/1_features/*"],
+    },
+    "types": ["node"],
+    "typeRoots": ["types", "./node_modules/@types"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tools/assert-articy-class.cjs"],
   "exclude": ["node_modules"]
 }
