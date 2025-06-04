@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 import StoreProvider from "./4_shared/store/store-provider";
 import cx from "clsx";
 import { Prefetch } from "./2_widgets/prefetch";
+import { OrientationGuard } from "./2_widgets/orientation-guard";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -30,9 +31,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
-        <StoreProvider>
-          <Prefetch>{children}</Prefetch>
-        </StoreProvider>
+        <OrientationGuard>
+          <StoreProvider>
+            <Prefetch>{children}</Prefetch>
+          </StoreProvider>
+        </OrientationGuard>
       </body>
     </html>
   );

@@ -28,9 +28,9 @@ export default function Home() {
     <div className={styles.page}>
       <GameProvider
         startId={
-          // mainStart
+          mainStart
           // firstColor
-          withoutHead
+          // withoutHead
           // firstCutsceneInstruction
           // secondWardrobeForMainChClothes
           // thirdWardrobeForCarolina

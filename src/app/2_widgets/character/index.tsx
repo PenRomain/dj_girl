@@ -39,6 +39,7 @@ const CharacterItem = memo(function CharacterItem({
       alt={character}
       className={cx(styles.character, styles[character], className)}
       priority
+      draggable={false}
       sizes="100dvw"
       quality={100}
     />
