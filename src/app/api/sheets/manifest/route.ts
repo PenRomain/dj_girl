@@ -8,6 +8,8 @@ const TAB_RANGES: Record<string, string> = {
   cutscenes: "Cutscenes!A1:Q",
 };
 
+const privateKey = (process.env.GOOGLE_PRIVATE_KEY ?? "").replace(/\\n/g, "\n");
+
 export async function GET() {
   const auth = await google.auth.getClient({
     projectId: process.env.GOOGLE_PROJECT_ID,
@@ -15,7 +17,7 @@ export async function GET() {
       type: process.env.GOOGLE_TYPE,
       project_id: process.env.GOOGLE_PROJECT_ID,
       private_key_id: process.env.GOOGLE_PRIVATE_KEY_ID,
-      private_key: process.env.GOOGLE_PRIVATE_KEY,
+      private_key: privateKey,
       client_email: process.env.GOOGLE_CLIENT_EMAIL,
       universe_domain: process.env.GOOGLE_UNIVERSE_DOMAIN,
     },

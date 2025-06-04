@@ -3,6 +3,8 @@
 import { google } from "googleapis";
 import { NextRequest } from "next/server";
 
+const privateKey = (process.env.GOOGLE_PRIVATE_KEY ?? "").replace(/\\n/g, "\n");
+
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const image = searchParams.get("image");
@@ -14,7 +16,7 @@ export async function GET(req: NextRequest) {
       type: process.env.GOOGLE_TYPE,
       project_id: process.env.GOOGLE_PROJECT_ID,
       private_key_id: process.env.GOOGLE_PRIVATE_KEY_ID,
-      private_key: process.env.GOOGLE_PRIVATE_KEY,
+      private_key: privateKey,
       client_email: process.env.GOOGLE_CLIENT_EMAIL,
       universe_domain: process.env.GOOGLE_UNIVERSE_DOMAIN,
     },
