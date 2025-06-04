@@ -29,6 +29,12 @@ const nextConfig: NextConfig = {
         hostname: "localhost",
         pathname: "/**",
       },
+
+      {
+        protocol: "https",
+        hostname: "dj-girl.vercel.app",
+        pathname: "/**",
+      },
       // new URL("https://drive.google.com/**"),
       new URL("https://www.googleapis.com/**"),
     ],
