@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  allowedDevOrigins: ["http://localhost:3000"],
+  allowedDevOrigins: ["http://localhost:3000", "*.ngrok-free.app"],
   images: {
     remotePatterns: [
       {
@@ -29,7 +29,11 @@ const nextConfig: NextConfig = {
         hostname: "localhost",
         pathname: "/**",
       },
-
+      {
+        protocol: "https",
+        hostname: "**.ngrok-free.app",
+        pathname: "/**",
+      },
       {
         protocol: "https",
         hostname: "dj-girl.vercel.app",

@@ -27,6 +27,6 @@
     "types": ["node"],
     "typeRoots": ["types", "./node_modules/@types"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tools/assert-articy-class.cjs"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tools/assert-articy-class.cjs", "src/app/2_widgets/orientation-guard"],
   "exclude": ["node_modules"]
 }
