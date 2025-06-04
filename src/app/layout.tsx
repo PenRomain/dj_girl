@@ -8,11 +8,13 @@ import { Prefetch } from "./2_widgets/prefetch";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
+  subsets: ["latin"],
 });
 
 const montserratSubrayada = Montserrat_Subrayada({
   variable: "--font-montserrat-subrayada",
   weight: "400",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
