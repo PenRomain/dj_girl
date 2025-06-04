@@ -27,7 +27,7 @@ const _isDev = process.env.NODE_ENV === "development";
 
 export default memo(function VisualNovel() {
   useInstructions();
-  // useMusic();
+  useMusic();
   const [state] = useGameState();
   const handleChoice = useGameChoice();
   const [cutscene] = useCutscene();
