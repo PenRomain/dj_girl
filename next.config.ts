@@ -1,8 +1,21 @@
 import type { NextConfig } from "next";
 
+const CDN = process.env.NEXT_PUBLIC_DEV_R2_ENDPOINT;
+
+if (!CDN) {
+  throw new Error("NEXT_PUBLIC_R2_ENDPOINT is not defined");
+}
+
 const nextConfig: NextConfig = {
-  /* config options here */
   crossOrigin: "anonymous",
+  async rewrites() {
+    return [
+      {
+        source: "/ivhid_src/:file*",
+        destination: `${CDN}/ivhid_src/:file*`,
+      },
+    ];
+  },
   async headers() {
     return [
       {
@@ -12,11 +25,29 @@ const nextConfig: NextConfig = {
             key: "Accept",
             value: "application/json",
           },
+          {
+            key: "Access-Control-Allow-Origin",
+            value: "*",
+          },
+        ],
+      },
+      {
+        source: "/ivhid_src/:file*",
+        headers: [
+          { key: "Access-Control-Allow-Origin", value: "*" },
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
         ],
       },
     ];
   },
-  allowedDevOrigins: ["http://localhost:3000", "*.ngrok-free.app"],
+  allowedDevOrigins: [
+    "http://localhost:3000",
+    "*.ngrok-free.app",
+    "https://pub-*.r2.dev",
+  ],
   images: {
     remotePatterns: [
       {
@@ -38,6 +69,12 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "dj-girl.vercel.app",
         pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: new URL(CDN).hostname,
+        port: "",
+        pathname: "/ivhid_src/**",
       },
       // new URL("https://drive.google.com/**"),
       new URL("https://www.googleapis.com/**"),

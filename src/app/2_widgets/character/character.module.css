@@ -12,6 +12,11 @@
   height: auto;
   z-index: 1;
   bottom: -5dvh;
+       
+  &.blur {
+  filter: blur(12px);
+  transition: filter .3s;
+  }
     
   &.body {
     z-index: 1;

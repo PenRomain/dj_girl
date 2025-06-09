@@ -1,41 +1,70 @@
 "use client";
 
-import { useAppDispatch } from "@/shared/store/hooks";
-import {
-  googleApi,
-  useGetDriveManifestQuery,
-  useGetSheetsManifestQuery,
-} from "@/shared/store/services/google";
+import { useEffect, useRef, useState } from "react";
 import Spinner from "@/shared/uikit/spinner";
-import { ReactNode, useEffect, useState } from "react";
 import styles from "./prefetch.module.css";
 
-export function Prefetch({ children }: { children: ReactNode }) {
-  const dispatch = useAppDispatch();
-  const { data: manifest, isLoading } = useGetDriveManifestQuery();
-  const { isLoading: sheetsIsLoading } = useGetSheetsManifestQuery();
-  const [tracksLoaded, setTracksLoaded] = useState(false);
+const CONCURRENCY = 8;
+
+export function Prefetch({ children }: { children: React.ReactNode }) {
+  const [pct, setPct] = useState(0);
+  const [done, setDone] = useState(false);
+  const [elapsed, setElapsed] = useState(0);
+  const startTimeRef = useRef<number>(0);
 
   useEffect(() => {
-    if (!manifest?.tracks) return;
-    const trackEntries = Object.values(manifest.tracks);
-    if (trackEntries.length === 0) {
-      setTracksLoaded(true);
-      return;
-    }
-    const promises = trackEntries.map((t) =>
-      dispatch(googleApi.endpoints.getTrack.initiate(t.name)).unwrap(),
-    );
-    Promise.all(promises).finally(() => {
-      setTracksLoaded(true);
-    });
-  }, [manifest, dispatch]);
+    let cancelled = false;
+    startTimeRef.current = performance.now();
 
-  if (!manifest || isLoading || sheetsIsLoading || !tracksLoaded)
+    const timer = setInterval(() => {
+      setElapsed((performance.now() - startTimeRef.current) / 1000);
+    }, 200);
+
+    (async () => {
+      const list: string[] = await fetch("/api/assets-list").then((r) =>
+        r.json(),
+      );
+
+      const total = list.length;
+      let loaded = 0;
+      const queue = [...list];
+
+      async function worker() {
+        while (!cancelled && queue.length) {
+          const rel = queue.shift()!;
+          const url = `/ivhid_src/${encodeURIComponent(rel)}`;
+          const res = await fetch(url);
+          if (res.ok) {
+            await res.blob();
+          }
+          loaded++;
+          setPct(Math.floor((loaded / total) * 100));
+        }
+      }
+
+      await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
+      if (!cancelled) {
+        clearInterval(timer);
+        const totalSec = (performance.now() - startTimeRef.current) / 1000;
+        setElapsed(totalSec);
+        setDone(true);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  if (!done) {
     return (
       <div className={styles.spinnerWrap}>
         <Spinner />
+        <p className={styles.progress}>
+          {pct.toFixed(0)} % — {elapsed.toFixed(1)} s
+        </p>
       </div>
     );
+  }
   return <>{children}</>;
 }

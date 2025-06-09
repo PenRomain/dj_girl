@@ -9,7 +9,6 @@ import CutsceneOverlay from "./2_widgets/cutscene-overlay";
 import Wardrobe from "./2_widgets/wardrobe";
 import InfoToast from "./2_widgets/info-toast";
 import { EmotionProvider } from "./4_shared/context/emotion-context";
-import GamePrefetch from "./2_widgets/game-prefetch";
 
 const secondWardrobeForMainChClothes = "0x010000000000CD3B";
 const thirdWardrobeForCarolina = "0x010000000000CE0F";
@@ -42,21 +41,19 @@ export default function Home() {
           // beforeInformation
         }
       >
-        <GamePrefetch>
+        <BackgroundProvider>
           <EmotionProvider>
             <InfoToast />
             <ContinueEvent />
             <Character />
             <main className={styles.main}>
-              <BackgroundProvider>
-                <Background />
-                <CutsceneOverlay />
-                <Wardrobe />
-                <VisualNovel />
-              </BackgroundProvider>
+              <Background />
+              <CutsceneOverlay />
+              <Wardrobe />
+              <VisualNovel />
             </main>
           </EmotionProvider>
-        </GamePrefetch>
+        </BackgroundProvider>
       </GameProvider>
     </div>
   );

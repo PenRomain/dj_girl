@@ -28,7 +28,6 @@ export default function CutsceneOverlay() {
         opacity: 1,
         transition: { duration: DURATION_SLOW },
       });
-
       setBg(cutscene);
       await controls.start({
         opacity: 0,

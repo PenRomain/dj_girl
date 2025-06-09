@@ -10,10 +10,7 @@ import {
   stepUntilUseful,
   useGameState,
 } from "@/shared/context/game-context";
-import {
-  useGetDriveManifestQuery,
-  useGetImageQuery,
-} from "@/shared/store/services/google";
+import { useGetDriveManifestQuery } from "@/shared/store/services/google";
 import { parseBranch, lookImages } from "./utils";
 import styles from "./wardrobe.module.css";
 import { advanceGameFlowState, DialogueFragment } from "articy-js";
@@ -22,24 +19,23 @@ import { getBranchLabel } from "@/shared/utils/get-branch-label";
 import Button from "@/shared/uikit/button";
 import Arrow from "@/shared/uikit/arrow";
 import { AnimatePresence, motion } from "framer-motion";
-import Spinner from "@/shared/uikit/spinner";
 
 const WardrobeImage = memo(function WardrobeImage({
-  image: _image,
+  image,
 }: {
   image: string;
 }) {
-  const { data: image, isLoading } = useGetImageQuery(_image);
-  if (isLoading || !image) return <Spinner />;
   return (
     <Image
       sizes="100dvw"
-      src={image}
+      src={`/ivhid_src/${image}`}
       alt={image}
       width={400}
       height={800}
       quality={100}
       priority
+      unselectable="on"
+      draggable={false}
       className={styles.layer}
     />
   );

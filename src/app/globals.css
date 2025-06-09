@@ -42,3 +42,9 @@ a {
     color-scheme: dark;
   }
 }
+/* @media screen and (orientation: landscape) {
+  body { transform: rotate(90deg); }
+}
+@media screen and (orientation: portrait)  {
+  body { transform: none; }
+} */

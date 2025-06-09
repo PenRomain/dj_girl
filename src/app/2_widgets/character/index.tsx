@@ -4,19 +4,36 @@ import { useGameState } from "../../4_shared/context/game-context";
 import { db } from "../../4_shared/model";
 import { DialogueFragment } from "articy-js";
 import Image from "next/image";
-import { memo, useMemo, useState } from "react";
+import { ImgHTMLAttributes, memo, useMemo } from "react";
 import styles from "./character.module.css";
 import cx from "clsx";
 import {
   useGetDriveManifestQuery,
-  useGetImageQuery,
   useGetSheetsManifestQuery,
 } from "@/shared/store/services/google";
 import { Characters } from "@/shared/types";
 import { AnimatePresence, motion, Variants } from "framer-motion";
 import { useEmotion } from "@/shared/context/emotion-context";
-import Button from "@/shared/uikit/button";
-import { SwipeyService } from "../../3_entities/swipey/swipey.service";
+
+type BlobImageProps = ImgHTMLAttributes<HTMLImageElement> & {
+  src: string;
+  className?: string;
+};
+export const BlobImage = memo(function BlobImage({
+  src,
+  className,
+  draggable = false,
+  ...rest
+}: BlobImageProps) {
+  return (
+    <img
+      src={src}
+      className={cx(styles.image, className)}
+      draggable={draggable}
+      {...rest}
+    />
+  );
+});
 
 const CharacterItem = memo(function CharacterItem({
   image,
@@ -27,18 +44,15 @@ const CharacterItem = memo(function CharacterItem({
   character: string;
   className?: string;
 }) {
-  const { data, isLoading } = useGetImageQuery(image, {
-    skip: !image,
-  });
-  if (!data || isLoading) return null;
   return (
     <Image
-      src={data}
+      src={`/ivhid_src/${encodeURIComponent(image)}`}
       width={400}
       height={800}
       alt={character}
       className={cx(styles.character, styles[character], className)}
       priority
+      unselectable="on"
       draggable={false}
       sizes="100dvw"
       quality={100}
@@ -103,46 +117,10 @@ export default memo(function Character() {
     state.variables.Wardrobe.mainCh_Clothes,
   ]);
 
-  const [value, setInputValue] = useState("");
-  const [fetchJson, setFetchJson] = useState("");
-  const swipeyService = new SwipeyService();
   if (!character || !sheets || !drive || isOpenWardrobe) return null;
 
   const isLeftSide = character === Characters.Protagonist;
   const variants = isLeftSide ? leftVariants : rightVariants;
-  if (process.env.NODE_ENV === "development") {
-    return (
-      <div
-        style={{
-          position: "absolute",
-          top: "24px",
-          display: "flex",
-          flexDirection: "column",
-          gap: "8px",
-          zIndex: 100,
-          width: "100%",
-          maxWidth: "80%",
-          color: "black",
-        }}
-      >
-        <input
-          type="text"
-          value={value}
-          onChange={(e) => setInputValue(e.target.value)}
-        />
-        {fetchJson && <span>{fetchJson}</span>}
-        <Button
-          onClick={async () => {
-            swipeyService
-              .getPaymentMethods()
-              .then((res) => setFetchJson(JSON.stringify(res)));
-          }}
-        >
-          SEND
-        </Button>
-      </div>
-    );
-  }
 
   return (
     <AnimatePresence mode="wait">

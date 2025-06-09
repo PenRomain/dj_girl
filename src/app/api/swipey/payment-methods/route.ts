@@ -93,9 +93,14 @@ export async function GET() {
   const pay = await sw("/payments/methods", {
     headers: {
       Authorization: `Bearer ${access}`,
+      Cookie: `refresh_token=${refresh}; access_token=${access}`,
       Accept: "application/json",
     },
   });
-
+  console.log(
+    "%csrc/app/api/swipey/payment-methods/route.ts:100 pay",
+    "color: #007acc;",
+    pay,
+  );
   return NextResponse.json(await pay.json(), { status: pay.status });
 }

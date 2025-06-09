@@ -13,4 +13,7 @@ declare module "articy-js" {
     };
     Parent: string;
   }
+  interface ScriptNodeProps {
+    DisplayName?: string;
+  }
 }

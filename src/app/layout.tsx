@@ -4,8 +4,8 @@ import "./globals.css";
 import { ReactNode } from "react";
 import StoreProvider from "./4_shared/store/store-provider";
 import cx from "clsx";
-import { Prefetch } from "./2_widgets/prefetch";
 import { OrientationGuard } from "./2_widgets/orientation-guard";
+import { Prefetch } from "./2_widgets/prefetch";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -19,7 +19,7 @@ const montserratSubrayada = Montserrat_Subrayada({
 });
 
 export const metadata: Metadata = {
-  title: "DJ Girl",
+  title: "Dubai",
   description: "Visual novel",
 };
 

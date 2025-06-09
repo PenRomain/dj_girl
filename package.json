@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build:articy": "node tools/build-articy.mjs",
+    "build:bundle": "node --env-file .env tools/build-assets-bundle.mjs",
     "dev": "node tools/build-articy.mjs && next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -27,6 +28,8 @@
     "zod": "^3.24.3"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.826.0",
+    "@aws-sdk/lib-storage": "^3.826.0",
     "@eslint/eslintrc": "^3",
     "@eslint/js": "^9.25.0",
     "@types/node": "^18.19.101",

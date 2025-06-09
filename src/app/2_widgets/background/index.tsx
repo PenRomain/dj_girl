@@ -10,7 +10,6 @@ import {
 } from "@/shared/context/game-context";
 import {
   useGetDriveManifestQuery,
-  useGetImageQuery,
   useGetSheetsManifestQuery,
 } from "@/shared/store/services/google";
 import styles from "./background.module.css";
@@ -27,7 +26,6 @@ import { isKeyOf } from "../character";
 import useSceneSwitcher from "@/shared/hooks/use-scene-switcher";
 import cx from "clsx";
 import useIsMindShade from "@/shared/hooks/use-is-mind-shade";
-import Spinner from "@/shared/uikit/spinner";
 
 const ImageProxy = forwardRef<HTMLImageElement, ImageProps>(
   function NextImageProxy(p, ref) {
@@ -61,15 +59,16 @@ const BackgroundImageInternal = memo(function BackgroundImageInternal({
   image: string;
 }) {
   const shiftControls = useBackgroundShift();
-  const { data } = useGetImageQuery(`${image}.png`);
-  if (!data) return <Spinner />;
+
   return (
     <MotionImage
       animate={shiftControls}
-      src={data}
+      src={`/ivhid_src/${image}.png`}
       fill
-      sizes="100vw"
+      sizes="100dvw"
       priority
+      unselectable="on"
+      draggable={false}
       quality={100}
       className={styles.background}
       alt="background"
