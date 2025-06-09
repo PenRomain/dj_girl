@@ -34,11 +34,12 @@ const nextConfig: NextConfig = {
       {
         source: "/ivhid_src/:file*",
         headers: [
-          { key: "Access-Control-Allow-Origin", value: "*" },
           {
             key: "Cache-Control",
             value: "public, max-age=31536000, immutable",
           },
+          { key: "Access-Control-Allow-Origin", value: "*" },
+          { key: "Accept", value: "application/json" },
         ],
       },
     ];
