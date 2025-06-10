@@ -5,3 +5,5 @@ export enum Characters {
   Melissa = "Melissa",
   Bartender = "Bartender",
 }
+
+export const isDev = process.env.NODE_ENV === "development";

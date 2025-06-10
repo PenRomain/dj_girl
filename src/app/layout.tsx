@@ -6,6 +6,9 @@ import StoreProvider from "./4_shared/store/store-provider";
 import cx from "clsx";
 import { OrientationGuard } from "./2_widgets/orientation-guard";
 import { Prefetch } from "./2_widgets/prefetch";
+import dynamic from "next/dynamic";
+
+const HeadLinks = dynamic(() => import("./2_widgets/head-links"));
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -28,24 +31,9 @@ export default async function RootLayout({
 }: Readonly<{
   children: ReactNode;
 }>) {
-  const URL = process.env.NEXT_PUBLIC_DEV_URL ?? process.env.NEXT_PUBLIC_URL;
-
-  const list: string[] = await fetch(`${URL}/api/assets-list`).then((r) =>
-    r.json(),
-  );
-
-  const preloadLinks = list
-    .filter((l) => l.includes("png"))
-    .map((name) => {
-      const url = `/ivhid_src/${encodeURIComponent(name)}`;
-      return `/_next/image?url=${encodeURIComponent(url)}&w=640&q=100`;
-    });
-
   return (
     <html lang="en">
-      {preloadLinks.map((href) => (
-        <link key={href} rel="preload" as="image" href={href} />
-      ))}
+      <HeadLinks />
       <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
         <OrientationGuard>
           <StoreProvider>
