@@ -50,6 +50,8 @@ const nextConfig: NextConfig = {
     "https://pub-*.r2.dev",
   ],
   images: {
+    minimumCacheTTL: 60 * 60 * 24 * 30,
+    formats: ["image/avif", "image/webp"],
     remotePatterns: [
       {
         protocol: "https",

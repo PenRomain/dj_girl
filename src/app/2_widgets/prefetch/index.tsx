@@ -33,6 +33,7 @@ export function Prefetch({ children }: { children: React.ReactNode }) {
         while (!cancelled && queue.length) {
           const rel = queue.shift()!;
           const url = `/ivhid_src/${encodeURIComponent(rel)}`;
+
           const res = await fetch(url);
           if (res.ok) {
             await res.blob();
