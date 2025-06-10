@@ -3,8 +3,8 @@
 import { useGameState } from "../../4_shared/context/game-context";
 import { db } from "../../4_shared/model";
 import { DialogueFragment } from "articy-js";
-import Image from "next/image";
-import { ImgHTMLAttributes, memo, useMemo } from "react";
+import NextImage from "next/image";
+import { memo, useEffect, useMemo, useState } from "react";
 import styles from "./character.module.css";
 import cx from "clsx";
 import {
@@ -15,25 +15,37 @@ import { Characters } from "@/shared/types";
 import { AnimatePresence, motion, Variants } from "framer-motion";
 import { useEmotion } from "@/shared/context/emotion-context";
 
-type BlobImageProps = ImgHTMLAttributes<HTMLImageElement> & {
-  src: string;
-  className?: string;
-};
-export const BlobImage = memo(function BlobImage({
-  src,
-  className,
-  draggable = false,
-  ...rest
-}: BlobImageProps) {
-  return (
-    <img
-      src={src}
-      className={cx(styles.image, className)}
-      draggable={draggable}
-      {...rest}
-    />
-  );
-});
+export function useImagePreloader(urls: string[]): boolean {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    if (urls.length === 0) {
+      setLoaded(true);
+      return;
+    }
+
+    Promise.all(
+      urls.map(
+        (u) =>
+          new Promise<void>((resolve) => {
+            const img = new Image();
+            img.src = `ivhid_src/${u}`;
+            img.onload = img.onerror = () => resolve();
+          }),
+      ),
+    ).then(() => {
+      if (!cancelled) setLoaded(true);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [urls]);
+
+  return loaded;
+}
 
 const CharacterItem = memo(function CharacterItem({
   image,
@@ -45,7 +57,7 @@ const CharacterItem = memo(function CharacterItem({
   className?: string;
 }) {
   return (
-    <Image
+    <NextImage
       src={`/ivhid_src/${encodeURIComponent(image)}`}
       width={400}
       height={800}
@@ -117,7 +129,13 @@ export default memo(function Character() {
     state.variables.Wardrobe.mainCh_Clothes,
   ]);
 
+  const urls = [bodyImg, suitImg, emoImg].filter((u): u is string =>
+    Boolean(u),
+  );
+  const allLoaded = useImagePreloader(urls);
+
   if (!character || !sheets || !drive || isOpenWardrobe) return null;
+  if (!allLoaded) return null;
 
   const isLeftSide = character === Characters.Protagonist;
   const variants = isLeftSide ? leftVariants : rightVariants;

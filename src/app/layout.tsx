@@ -23,13 +23,27 @@ export const metadata: Metadata = {
   description: "Visual novel",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: ReactNode;
 }>) {
+  const list: string[] = await fetch(
+    "http://localhost:3000/api/assets-list",
+  ).then((r) => r.json());
+
+  const preloadLinks = list
+    .filter((l) => l.includes("png"))
+    .map((name) => {
+      const url = `/ivhid_src/${encodeURIComponent(name)}`;
+      return `/_next/image?url=${encodeURIComponent(url)}&w=640&q=100`;
+    });
+
   return (
     <html lang="en">
+      {preloadLinks.map((href) => (
+        <link key={href} rel="preload" as="image" href={href} />
+      ))}
       <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
         <OrientationGuard>
           <StoreProvider>
