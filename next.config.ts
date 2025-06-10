@@ -8,6 +8,17 @@ if (!CDN) {
 
 const nextConfig: NextConfig = {
   crossOrigin: "anonymous",
+  webpack(config, { dev, isServer }) {
+    config.stats = {
+      all: false,
+      errors: true,
+      warnings: true,
+      colors: true,
+      errorDetails: true,
+      moduleTrace: true,
+    };
+    return config;
+  },
   async rewrites() {
     return [
       {

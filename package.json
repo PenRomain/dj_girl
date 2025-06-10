@@ -6,11 +6,11 @@
     "build:articy": "node tools/build-articy.mjs",
     "build:bundle": "node --env-file .env tools/build-assets-bundle.mjs",
     "dev": "node tools/build-articy.mjs && next dev --turbopack",
-    "build": "next build",
+    "build": "npm run lint && npm run type-check && next build",
     "start": "next start",
-    "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "format": "prettier -w \"src/**/*.{ts,tsx,css,md,json}\"",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit --pretty",
+    "lint": "eslint \"src/**/*.{ts,tsx,js,jsx}\" --color --format stylish"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
@@ -32,6 +32,7 @@
     "@aws-sdk/lib-storage": "^3.826.0",
     "@eslint/eslintrc": "^3",
     "@eslint/js": "^9.25.0",
+    "@next/eslint-plugin-next": "^15.3.3",
     "@types/node": "^18.19.101",
     "@types/react": "^19",
     "@types/react-dom": "^19",
