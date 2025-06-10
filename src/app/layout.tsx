@@ -28,9 +28,11 @@ export default async function RootLayout({
 }: Readonly<{
   children: ReactNode;
 }>) {
-  const list: string[] = await fetch(
-    "http://localhost:3000/api/assets-list",
-  ).then((r) => r.json());
+  const URL = process.env.NEXT_PUBLIC_DEV_URL ?? process.env.NEXT_PUBLIC_URL;
+
+  const list: string[] = await fetch(`${URL}/api/assets-list`).then((r) =>
+    r.json(),
+  );
 
   const preloadLinks = list
     .filter((l) => l.includes("png"))

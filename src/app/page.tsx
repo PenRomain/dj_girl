@@ -10,18 +10,18 @@ import Wardrobe from "./2_widgets/wardrobe";
 import InfoToast from "./2_widgets/info-toast";
 import { EmotionProvider } from "./4_shared/context/emotion-context";
 
-const secondWardrobeForMainChClothes = "0x010000000000CD3B";
-const thirdWardrobeForCarolina = "0x010000000000CE0F";
-const firstCutsceneInstruction = "0x010000000000D00E";
-const beforeBar = "0x010000000000CD79";
 const mainStart = "0x010000000000C91B";
-const beforeInformation = "0x010000000000CDEA";
-const beforeMind = "0x010000000000CE98";
-const melissa = "0x010000000000D106";
-const carolina = "0x010000000000CEAF";
-const bartender = "0x010000000000D0A8";
-const firstColor = "0x010000000000CC8C";
-const withoutHead = "0x010000000000CD26";
+// const secondWardrobeForMainChClothes = "0x010000000000CD3B";
+// const thirdWardrobeForCarolina = "0x010000000000CE0F";
+// const firstCutsceneInstruction = "0x010000000000D00E";
+// const beforeBar = "0x010000000000CD79";
+// const beforeInformation = "0x010000000000CDEA";
+// const beforeMind = "0x010000000000CE98";
+// const melissa = "0x010000000000D106";
+// const carolina = "0x010000000000CEAF";
+// const bartender = "0x010000000000D0A8";
+// const firstColor = "0x010000000000CC8C";
+// const withoutHead = "0x010000000000CD26";
 export default function Home() {
   return (
     <div className={styles.page}>
