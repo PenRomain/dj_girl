@@ -1,6 +1,6 @@
 "use client";
 
-import { memo, useState, MouseEvent } from "react";
+import { memo, useState, MouseEvent, useMemo } from "react";
 import { DialogueFragment } from "articy-js";
 import styles from "./visual-novel.module.css";
 import Button from "../../4_shared/uikit/button";
@@ -23,6 +23,7 @@ import { useNodeTextWithName } from "@/shared/hooks/use-node-text-with-name";
 import { useMusic } from "@/shared/hooks/use-music";
 import { useGetDriveManifestQuery } from "@/shared/store/services/google";
 import SwipeyCoinIcon from "@/shared/uikit/swipey-coin-icon";
+import { SwipeyPayService } from "@/shared/swipey/swipey-pay.service";
 
 const PRICE = 120;
 
@@ -36,6 +37,7 @@ const PremiumButton = memo(function PremiumButton({
 }: PremiumButtonProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const { pay } = useMemo(() => new SwipeyPayService(), []);
 
   const handleClick = async (e: MouseEvent) => {
     e.preventDefault();
@@ -43,20 +45,15 @@ const PremiumButton = memo(function PremiumButton({
     setLoading(true);
 
     try {
-      const res = await fetch(
-        `/api/swipey/pay?${new URLSearchParams({ price: PRICE.toString() })}`,
-      );
-
-      if (res.ok) {
+      const result = await pay(PRICE);
+      if (result.status === "deposit") {
+        window.open(result.depositUrl, "_blank", "noopener,noreferrer");
+      }
+      if (result.status === "success") {
         onSuccess();
-      } else if (res.status === 402) {
-        const json = await res.json();
-        const depositUrl = json.deposit_url;
-        window.open(depositUrl, "_blank", "noopener");
-        return;
-      } else {
-        const { message } = await res.json().catch(() => ({}));
-        setError(message);
+      }
+      if (result.status === "error") {
+        setError(result.message ?? "Something went wrong");
       }
     } catch (e) {
       console.log(

@@ -3,22 +3,12 @@
 import { useGameState } from "../../4_shared/context/game-context";
 import { db } from "../../4_shared/model";
 import { DialogueFragment } from "articy-js";
-import {
-  memo,
-  useEffect,
-  useLayoutEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import { memo, useEffect, useMemo, useRef } from "react";
 import styles from "./character.module.css";
 import cx from "clsx";
-import {
-  useGetDriveManifestQuery,
-  useGetSheetsManifestQuery,
-} from "@/shared/store/services/google";
+import { useGetSheetsManifestQuery } from "@/shared/store/services/google";
 import { Characters } from "@/shared/types";
-import { AnimatePresence, motion, Variants } from "framer-motion";
+import { motion, useAnimation, Variants } from "framer-motion";
 import { useEmotion } from "@/shared/context/emotion-context";
 
 const leftVariants: Variants = {
@@ -46,7 +36,6 @@ export default memo(function Character() {
   const [emotion] = useEmotion();
   const character = node?.Speaker?.properties.DisplayName;
   const { data: sheets } = useGetSheetsManifestQuery();
-  const { data: drive } = useGetDriveManifestQuery();
   const race = +state.variables.Wardrobe.mainCh_Race - 1;
   const isOpenWardrobe = state.variables.Open.Wardrobe;
 
@@ -82,15 +71,14 @@ export default memo(function Character() {
     Boolean(u),
   );
   const urlsString = useMemo(() => urls.join("|"), [urls]);
-
-  const [canvasReady, setCanvasReady] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const controls = useAnimation();
   const width = 400,
     height = 800;
 
   useEffect(() => {
     let cancelled = false;
-    setCanvasReady(false);
+    controls.set("hidden");
 
     (async () => {
       const bitmaps = await Promise.all(
@@ -118,7 +106,7 @@ export default memo(function Character() {
       ctx.imageSmoothingQuality = "high";
 
       bitmaps.forEach((bm) => ctx.drawImage(bm, 0, 0, width, height));
-      setCanvasReady(true);
+      await controls.start("show");
     })();
     return () => {
       cancelled = true;
@@ -126,29 +114,25 @@ export default memo(function Character() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [character, urlsString]);
 
-  if (!character || !sheets || !drive || isOpenWardrobe) return null;
+  if (!character || !sheets || isOpenWardrobe) return null;
 
   const isLeftSide = character === Characters.Protagonist;
   const variants = isLeftSide ? leftVariants : rightVariants;
 
   return (
-    <AnimatePresence initial={false} mode="wait">
-      <motion.div
-        key={character}
-        className={styles.wrap}
-        variants={variants}
-        initial="hidden"
-        animate={canvasReady ? "show" : undefined}
-        exit="exit"
-      >
-        <canvas
-          key={character}
-          ref={canvasRef}
-          className={cx(styles[character], styles.character)}
-          width={width}
-          height={height}
-        />
-      </motion.div>
-    </AnimatePresence>
+    <motion.div
+      key={character}
+      className={styles.wrap}
+      initial="hidden"
+      animate={controls}
+      variants={variants}
+    >
+      <canvas
+        ref={canvasRef}
+        className={cx(styles.character, styles[character])}
+        width={width}
+        height={height}
+      />
+    </motion.div>
   );
 });

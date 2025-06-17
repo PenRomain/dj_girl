@@ -6,9 +6,8 @@ import StoreProvider from "./4_shared/store/store-provider";
 import cx from "clsx";
 import { OrientationGuard } from "./2_widgets/orientation-guard";
 import { Prefetch } from "./2_widgets/prefetch";
-import dynamic from "next/dynamic";
 
-const HeadLinks = dynamic(() => import("./2_widgets/head-links"));
+// const HeadLinks = dynamic(() => import("./2_widgets/head-links"));
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -33,6 +32,10 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+      />
       {/* <HeadLinks /> */}
       <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
         <OrientationGuard>

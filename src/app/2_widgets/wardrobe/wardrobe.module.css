@@ -34,6 +34,12 @@
   grid-area: button;
   justify-self: center;
   align-self: flex-end;
+
+  &.loading {
+    pointer-events: none;
+    opacity: 0.8;
+    cursor: not-allowed;
+  }
 }
 
 .wrap {
@@ -109,4 +115,12 @@
   grid-area: title;
   text-align: center;
   font-size: 20px;
+}
+
+.premiumPrice {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }

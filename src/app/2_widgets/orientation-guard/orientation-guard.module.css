@@ -2,7 +2,7 @@
 .overlay {
   position: fixed;
   inset: 0;
-  background: #000c;
+  background: black;
   color: #fff;
   display: flex; 
   flex-direction: column;
@@ -12,4 +12,28 @@
   z-index: 9999;
   user-select: none; 
   -webkit-user-select: none;
+}
+
+.phoneFrame {
+  width: 400px;
+  height: 690px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #000;
+  overflow: hidden;
+}
+
+@media (max-width: 420px) {
+  .phoneFrame {
+    width: 100vw;
+    height: 100vh;
+    transform: none;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    background: transparent;
+  }
 }

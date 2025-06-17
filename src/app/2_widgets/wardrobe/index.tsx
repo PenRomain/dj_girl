@@ -1,6 +1,6 @@
 "use client";
 
-import { memo, useCallback, useState } from "react";
+import { memo, useCallback, useMemo, useState } from "react";
 import Image from "next/image";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
@@ -19,6 +19,11 @@ import { getBranchLabel } from "@/shared/utils/get-branch-label";
 import Button from "@/shared/uikit/button";
 import Arrow from "@/shared/uikit/arrow";
 import { AnimatePresence, motion } from "framer-motion";
+import SwipeyCoinIcon from "@/shared/uikit/swipey-coin-icon";
+import { SwipeyPayService } from "@/shared/swipey/swipey-pay.service";
+import cx from "clsx";
+
+const PRICE = 120;
 
 const WardrobeImage = memo(function WardrobeImage({
   image,
@@ -53,6 +58,8 @@ export default memo(function Wardrobe() {
   const [idx, setIdx] = useState(0);
   const node = db.getObject(state.id, DialogueFragment);
   const mainCh_Race = state.variables.Wardrobe.mainCh_Race;
+  const { pay } = useMemo(() => new SwipeyPayService(), []);
+  const [loading, setLoading] = useState(false);
 
   const confirm = useCallback(() => {
     setState((prev) => {
@@ -70,11 +77,35 @@ export default memo(function Wardrobe() {
     setIdx(0);
   }, [idx, setState]);
 
+  const payHandler = useCallback(async () => {
+    if (loading) return;
+    setLoading(true);
+
+    try {
+      const result = await pay(PRICE);
+      if (result.status === "deposit") {
+        window.open(result.depositUrl, "_blank", "noopener,noreferrer");
+      }
+      if (result.status === "success") {
+        confirm();
+      }
+    } catch (e) {
+      console.log(
+        "%csrc/app/2_widgets/wardrobe/index.tsx:82 e",
+        "color: #007acc;",
+        e,
+      );
+    } finally {
+      setLoading(false);
+    }
+  }, [confirm, loading, pay]);
+
   const looks = state.branches
     .map((br) => parseBranch(br, mainCh_Race))
     .filter(Boolean);
-  const label = state.branches.map(getBranchLabel).filter(Boolean);
-  const wardrobeItem = label[idx];
+  const labels = state.branches.map(getBranchLabel).filter(Boolean);
+  const wardrobeItem = labels[idx];
+  const isPremium = wardrobeItem.includes("premium");
 
   if (!open || !drive || !node) return null;
 
@@ -100,10 +131,31 @@ export default memo(function Wardrobe() {
         >
           <p className={styles.title}>{node.properties.Text}</p>
           <div className={styles.dialogue}>
-            <span className={styles.wardrobeItem}>{wardrobeItem}</span>
-            <Button className={styles.ok} onClick={confirm}>
-              Choose
-            </Button>
+            {isPremium ? (
+              <>
+                <span className={styles.wardrobeItem}>
+                  {wardrobeItem.replace("[premium]", "")}
+                </span>
+                <Button
+                  disabled={loading}
+                  className={cx(styles.ok, loading && styles.loading)}
+                  onClick={payHandler}
+                >
+                  Choose
+                  <span className={styles.premiumPrice}>
+                    {` ${PRICE} `}
+                    <SwipeyCoinIcon />
+                  </span>
+                </Button>
+              </>
+            ) : (
+              <>
+                <span className={styles.wardrobeItem}>{wardrobeItem}</span>
+                <Button className={styles.ok} onClick={confirm}>
+                  Choose
+                </Button>
+              </>
+            )}
             <Arrow
               onClick={() => slider.current?.prev()}
               className={styles.arrowLeft}
