@@ -33,7 +33,7 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <HeadLinks />
+      {/* <HeadLinks /> */}
       <body className={cx(montserrat.variable, montserratSubrayada.variable)}>
         <OrientationGuard>
           <StoreProvider>

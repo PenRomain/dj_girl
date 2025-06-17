@@ -1,6 +1,6 @@
 "use client";
 
-import { memo } from "react";
+import { memo, useState, MouseEvent } from "react";
 import { DialogueFragment } from "articy-js";
 import styles from "./visual-novel.module.css";
 import Button from "../../4_shared/uikit/button";
@@ -22,12 +22,75 @@ import TypingEffect from "@/shared/uikit/typing-effect";
 import { useNodeTextWithName } from "@/shared/hooks/use-node-text-with-name";
 import { useMusic } from "@/shared/hooks/use-music";
 import { useGetDriveManifestQuery } from "@/shared/store/services/google";
+import SwipeyCoinIcon from "@/shared/uikit/swipey-coin-icon";
 
-const _isDev = process.env.NODE_ENV === "development";
+const PRICE = 120;
+
+type PremiumButtonProps = {
+  onSuccess: VoidFunction;
+  label: string;
+};
+const PremiumButton = memo(function PremiumButton({
+  onSuccess,
+  label,
+}: PremiumButtonProps) {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const handleClick = async (e: MouseEvent) => {
+    e.preventDefault();
+    if (loading) return;
+    setLoading(true);
+
+    try {
+      const res = await fetch(
+        `/api/swipey/pay?${new URLSearchParams({ price: PRICE.toString() })}`,
+      );
+
+      if (res.ok) {
+        onSuccess();
+      } else if (res.status === 402) {
+        const json = await res.json();
+        const depositUrl = json.deposit_url;
+        window.open(depositUrl, "_blank", "noopener");
+        return;
+      } else {
+        const { message } = await res.json().catch(() => ({}));
+        setError(message);
+      }
+    } catch (e) {
+      console.log(
+        "%csrc/app/1_features/visual-novel/index.tsx:62 e",
+        "color: #007acc;",
+        e,
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <Button
+      onClick={handleClick}
+      className={cx(
+        styles.premiumButton,
+        error && styles.error,
+        loading && styles.loading,
+      )}
+      disabled={loading}
+    >
+      <span className={styles.premiumText}>
+        {label.replace("[premium]", "")}
+        {` ${PRICE}`}
+        <SwipeyCoinIcon />
+      </span>
+    </Button>
+  );
+});
 
 export default memo(function VisualNovel() {
   useInstructions();
-  // useMusic();
+  useMusic();
   const [state] = useGameState();
   const handleChoice = useGameChoice();
   const [cutscene] = useCutscene();
@@ -90,16 +153,30 @@ export default memo(function VisualNovel() {
       <CName />
       <div className={styles.choices}>
         {state.branches.length > 1 &&
-          state.branches.map((br, i) => (
-            <Button
-              key={i}
-              onClick={() => {
-                handleChoice(br.index);
-              }}
-            >
-              {getBranchLabel(br)}
-            </Button>
-          ))}
+          state.branches.map((br, i) => {
+            const label = getBranchLabel(br);
+            const isPremium = label.includes("premium");
+
+            if (isPremium) {
+              return (
+                <PremiumButton
+                  key={i}
+                  label={label}
+                  onSuccess={() => handleChoice(br.index)}
+                />
+              );
+            }
+            return (
+              <Button
+                key={i}
+                onClick={() => {
+                  handleChoice(br.index);
+                }}
+              >
+                {label}
+              </Button>
+            );
+          })}
       </div>
     </div>
   );

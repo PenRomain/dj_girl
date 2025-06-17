@@ -8,7 +8,8 @@ if (!CDN) {
 
 const nextConfig: NextConfig = {
   crossOrigin: "anonymous",
-  webpack(config, { dev, isServer }) {
+  poweredByHeader: false,
+  webpack(config) {
     config.stats = {
       all: false,
       errors: true,
@@ -59,6 +60,7 @@ const nextConfig: NextConfig = {
     "http://localhost:3000",
     "*.ngrok-free.app",
     "https://pub-*.r2.dev",
+    "https://ud824.com",
   ],
   images: {
     minimumCacheTTL: 60 * 60 * 24 * 30,

@@ -9,14 +9,10 @@
 .character {
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: 1;
   bottom: -5dvh;
-       
-  &.blur {
-  filter: blur(12px);
-  transition: filter .3s;
-  }
+  top: 0;
     
   &.body {
     z-index: 1;
@@ -32,17 +28,20 @@
 .Protagonist {
   left: -90px;
   width: 110%;
+  height: 110%;
   bottom: -7dvh;
 }
 
 .Carolina {
   right: -90px;
   width: 107%;
+  height: 107%;
 }
 
 .Arthur {
   right: -50px;
   width: 110%;
+  height: 110%;
   bottom: -7dvh;
 }
 
@@ -54,4 +53,5 @@
 .Bartender {
   right: -140px;
   width: 110%;
+  height: 110%;
 }

@@ -56,3 +56,21 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+
+.premiumText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-direction: row;
+}
+
+.error.error {
+  border: 1px solid brown;
+}
+
+.loading.loading {
+  opacity: 0.8;
+  pointer-events: none;
+  cursor: not-allowed;
+}

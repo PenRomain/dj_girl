@@ -3,8 +3,14 @@
 import { useGameState } from "../../4_shared/context/game-context";
 import { db } from "../../4_shared/model";
 import { DialogueFragment } from "articy-js";
-import NextImage from "next/image";
-import { memo, useEffect, useMemo, useState } from "react";
+import {
+  memo,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import styles from "./character.module.css";
 import cx from "clsx";
 import {
@@ -14,63 +20,6 @@ import {
 import { Characters } from "@/shared/types";
 import { AnimatePresence, motion, Variants } from "framer-motion";
 import { useEmotion } from "@/shared/context/emotion-context";
-
-export function useImagePreloader(urls: string[]): boolean {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    let cancelled = false;
-
-    if (urls.length === 0) {
-      setLoaded(true);
-      return;
-    }
-
-    Promise.all(
-      urls.map(
-        (u) =>
-          new Promise<void>((resolve) => {
-            const img = new Image();
-            img.src = `ivhid_src/${u}`;
-            img.onload = img.onerror = () => resolve();
-          }),
-      ),
-    ).then(() => {
-      if (!cancelled) setLoaded(true);
-    });
-
-    return () => {
-      cancelled = true;
-    };
-  }, [urls]);
-
-  return loaded;
-}
-
-const CharacterItem = memo(function CharacterItem({
-  image,
-  character,
-  className,
-}: {
-  image: string;
-  character: string;
-  className?: string;
-}) {
-  return (
-    <NextImage
-      src={`/ivhid_src/${encodeURIComponent(image)}`}
-      width={400}
-      height={800}
-      alt={character}
-      className={cx(styles.character, styles[character], className)}
-      priority
-      unselectable="on"
-      draggable={false}
-      sizes="100dvw"
-      quality={100}
-    />
-  );
-});
 
 const leftVariants: Variants = {
   hidden: { x: "-15%", opacity: 0 },
@@ -132,45 +81,73 @@ export default memo(function Character() {
   const urls = [bodyImg, suitImg, emoImg].filter((u): u is string =>
     Boolean(u),
   );
-  const allLoaded = useImagePreloader(urls);
+  const urlsString = useMemo(() => urls.join("|"), [urls]);
+
+  const [canvasReady, setCanvasReady] = useState(false);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const width = 400,
+    height = 800;
+
+  useEffect(() => {
+    let cancelled = false;
+    setCanvasReady(false);
+
+    (async () => {
+      const bitmaps = await Promise.all(
+        urls.map((u) =>
+          fetch(`/ivhid_src/${u}`)
+            .then((r) => r.blob())
+            .then((b) => createImageBitmap(b)),
+        ),
+      );
+
+      if (cancelled) return;
+      const canvas = canvasRef.current;
+      if (!canvas) return;
+      const ctx = canvas.getContext("2d")!;
+      canvas.setAttribute("sizes", "100dvw");
+      canvas.setAttribute("unselectable", "on");
+      canvas.setAttribute("draggable", "false");
+      canvas.setAttribute("decoding", "async");
+      canvas.setAttribute("quality", "100");
+      const dpr = 2;
+      canvas.width = width * dpr;
+      canvas.height = height * dpr;
+      ctx.scale(dpr, dpr);
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = "high";
+
+      bitmaps.forEach((bm) => ctx.drawImage(bm, 0, 0, width, height));
+      setCanvasReady(true);
+    })();
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [character, urlsString]);
 
   if (!character || !sheets || !drive || isOpenWardrobe) return null;
-  if (!allLoaded) return null;
 
   const isLeftSide = character === Characters.Protagonist;
   const variants = isLeftSide ? leftVariants : rightVariants;
 
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence initial={false} mode="wait">
       <motion.div
         key={character}
         className={styles.wrap}
         variants={variants}
         initial="hidden"
-        animate="show"
+        animate={canvasReady ? "show" : undefined}
         exit="exit"
       >
-        {bodyImg && (
-          <CharacterItem
-            image={bodyImg}
-            character={character}
-            className={styles.body}
-          />
-        )}
-        {suitImg && (
-          <CharacterItem
-            image={suitImg}
-            character={character}
-            className={styles.suit}
-          />
-        )}
-        {emoImg && (
-          <CharacterItem
-            image={emoImg}
-            character={character}
-            className={styles.emo}
-          />
-        )}
+        <canvas
+          key={character}
+          ref={canvasRef}
+          className={cx(styles[character], styles.character)}
+          width={width}
+          height={height}
+        />
       </motion.div>
     </AnimatePresence>
   );
