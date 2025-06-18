@@ -4,20 +4,34 @@ import { ReactNode, useEffect, useState } from "react";
 import styles from "./orientation-guard.module.css";
 
 export function OrientationGuard({ children }: { children: ReactNode }) {
-  const [landscape, setLandscape] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(false);
 
   useEffect(() => {
-    const m = window.matchMedia("(orientation: landscape)");
-    const handler = () => setLandscape(m.matches);
-    handler();
-    m.addEventListener("change", handler);
-    return () => m.removeEventListener("change", handler);
+    const isTouchDevice =
+      typeof window !== "undefined" &&
+      ("ontouchstart" in window || navigator.maxTouchPoints > 0);
+
+    if (!isTouchDevice) {
+      return;
+    }
+
+    const mql = window.matchMedia("(orientation: landscape)");
+    const onChange = (e: MediaQueryListEvent) => {
+      setShowOverlay(e.matches);
+    };
+
+    setShowOverlay(mql.matches);
+
+    mql.addEventListener("change", onChange);
+    return () => {
+      mql.removeEventListener("change", onChange);
+    };
   }, []);
 
   return (
     <>
       <div className={styles.phoneFrame}>{children}</div>
-      {landscape && (
+      {showOverlay && (
         <div className={styles.overlay}>
           <p>Rotate your device ↻</p>
         </div>

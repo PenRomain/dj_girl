@@ -7,8 +7,6 @@ import { NextRequest, NextResponse } from "next/server";
 const SWIPEY = "https://ud824.com/api/v1";
 // const SWIPEY = "https://swipey.ai/api/v1";
 const KEY = process.env.SWIPEY_API_KEY ?? "";
-// const USERID = process.env.SWIPEY_USER_ID;
-// const SWIPEY_CHARACTER_ID = "67609f4e8127c56ba3c9ce7f";
 
 export async function GET(req: NextRequest) {
   const price = new URL(req.url).searchParams.get("price");

@@ -11,11 +11,17 @@ import InfoToast from "./2_widgets/info-toast";
 import { EmotionProvider } from "./4_shared/context/emotion-context";
 
 const mainStart = "0x010000000000C91B";
+const secondSound = "0x010000000000CF49";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <GameProvider startId={mainStart}>
+      <GameProvider
+        startId={
+          mainStart
+          // secondSound
+        }
+      >
         <BackgroundProvider>
           <EmotionProvider>
             <InfoToast />

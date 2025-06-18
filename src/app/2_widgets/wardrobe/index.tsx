@@ -104,8 +104,8 @@ export default memo(function Wardrobe() {
     .map((br) => parseBranch(br, mainCh_Race))
     .filter(Boolean);
   const labels = state.branches.map(getBranchLabel).filter(Boolean);
-  const wardrobeItem = labels[idx];
-  const isPremium = wardrobeItem.includes("premium");
+  const wardrobeItem: string | undefined = labels[idx];
+  const isPremium = wardrobeItem?.includes("premium");
 
   if (!open || !drive || !node) return null;
 

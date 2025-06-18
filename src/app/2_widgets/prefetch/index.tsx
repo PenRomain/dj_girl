@@ -27,7 +27,9 @@ export function Prefetch({ children }: { children: React.ReactNode }) {
 
       const queue = list.filter(
         (l) =>
-          l.toLowerCase().includes("loc") || l.toLowerCase().includes("show"),
+          l.toLowerCase().includes("loc") ||
+          l.toLowerCase().includes("show") ||
+          l.toLowerCase().includes("ogg"),
       );
       const total = queue.length;
       let loaded = 0;

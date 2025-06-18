@@ -24,6 +24,7 @@ import { useMusic } from "@/shared/hooks/use-music";
 import { useGetDriveManifestQuery } from "@/shared/store/services/google";
 import SwipeyCoinIcon from "@/shared/uikit/swipey-coin-icon";
 import { SwipeyPayService } from "@/shared/swipey/swipey-pay.service";
+import { useSound } from "@/shared/hooks/use-sound";
 
 const PRICE = 120;
 
@@ -88,6 +89,7 @@ const PremiumButton = memo(function PremiumButton({
 export default memo(function VisualNovel() {
   useInstructions();
   useMusic();
+  useSound();
   const [state] = useGameState();
   const handleChoice = useGameChoice();
   const [cutscene] = useCutscene();

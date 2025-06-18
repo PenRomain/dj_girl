@@ -1,49 +1,65 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useAppSelector } from "@/shared/store/hooks";
+import {
+  useGetDriveManifestQuery,
+  useGetTrackQuery,
+} from "@/shared/store/services/google";
 import { useGameState } from "../context/game-context";
-import { googleApi, useGetDriveManifestQuery } from "../store/services/google";
 
 export function useMusic() {
   const [state] = useGameState();
   const { data: manifest } = useGetDriveManifestQuery();
 
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const currentKeyRef = useRef<string | null>(null);
-  const prevMusicRef = useRef<Record<string, boolean> | null>(null);
+  const musicVars = (state.variables?.Music ?? {}) as Record<string, boolean>;
+  console.log(
+    "%csrc/app/4_shared/hooks/use-music.tsx:15 musicVars",
+    "color: #007acc;",
+    musicVars,
+  );
+  const trackKey = Object.entries(musicVars).find(([, on]) => on)?.[0] ?? null;
+  console.log(
+    "%csrc/app/4_shared/hooks/use-music.tsx:16 trackKey",
+    "color: #007acc;",
+    trackKey,
+  );
+  const trackFileName = trackKey ? `${trackKey}.ogg` : null;
+  const trackEntry = trackFileName
+    ? manifest?.tracks[trackFileName]
+    : undefined;
+  const trackName = trackEntry?.name;
 
-  let trackKey: string | null = null;
-  {
-    const vars = state.variables?.Music as Record<string, boolean> | undefined;
-    if (vars) {
-      trackKey = Object.keys(vars).find((k) => vars[k]) ?? null;
-      prevMusicRef.current = vars;
-    }
-  }
-
-  const url = useAppSelector((state) => {
-    if (!trackKey || !manifest) return undefined;
-    const name = manifest.tracks[`${trackKey}.ogg`].name;
-
-    if (!name) return undefined;
-
-    return googleApi.endpoints.getTrack.select(name)(state)?.data;
+  const {
+    data: url,
+    isSuccess,
+    isLoading,
+    error,
+  } = useGetTrackQuery(trackName ?? "", {
+    skip: !trackName,
   });
 
+  const audioRef = useRef<HTMLAudioElement>(new Audio());
+  const prevUrlRef = useRef<string | null>(null);
+
   useEffect(() => {
-    if (!url || trackKey === currentKeyRef.current) return;
-    currentKeyRef.current = trackKey!;
+    if (!isSuccess || !url || url === prevUrlRef.current) return;
 
-    if (!audioRef.current) audioRef.current = new Audio();
+    prevUrlRef.current = url;
     const audio = audioRef.current;
-
-    if (!audio.paused) audio.pause();
+    audio.pause();
     audio.src = url;
     audio.loop = true;
     audio.currentTime = 0;
     audio.play().catch(console.error);
 
-    return () => URL.revokeObjectURL(url);
-  }, [url, trackKey]);
+    return () => {
+      URL.revokeObjectURL(url);
+    };
+  }, [isSuccess, url]);
+
+  useEffect(() => {
+    return () => {
+      audioRef.current.pause();
+    };
+  }, []);
 }
