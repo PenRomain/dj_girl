@@ -87,10 +87,10 @@ const PremiumButton = memo(function PremiumButton({
 });
 
 export default memo(function VisualNovel() {
+  const [state] = useGameState();
   useInstructions();
   useMusic();
   useSound();
-  const [state] = useGameState();
   const handleChoice = useGameChoice();
   const [cutscene] = useCutscene();
   const { isFading } = useGameContext();

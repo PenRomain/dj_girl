@@ -22,7 +22,12 @@ export function useInstructions() {
         variables: {
           ...prev.variables,
           [ns]: {
-            ...prev.variables[ns],
+            ...(["Music", "Sound"].includes(ns)
+              ? Object.keys(prev.variables[ns]).reduce(
+                  (acc, k) => ({ ...acc, [k]: false }),
+                  {},
+                )
+              : prev.variables[ns]),
             [name]: value,
           },
         },
